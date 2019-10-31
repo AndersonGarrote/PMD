@@ -6,10 +6,12 @@ Para fins de demonstração deste tutorial, utilizaremos a versão para Docker, 
 
 >Para isso, é necessário instalar o docker, pelo instalador de programas do sistema operacional ou direto do site: https://www.docker.com. Nesse endereço também é possível encontrar, mais informações úteis sobre o Docker.
 
-Com o Docker instalado, escolheremos a respectiva versão no site do RavenDB, após aceitar os termos e condições. Seremos redirecionados para outra página, com diversas inf
+Com o Docker instalado, escolheremos a respectiva versão no site do RavenDB, após aceitar os termos e condições. Seremos redirecionados para outra página, com diversas informações de configuração.
+Estamos interessados no seguinte comando:
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MTg1NzE1MiwtMjcxNTkxMTIxLC0yMD
-A2ODc4NzAsNzI2Njg4NzcyLDM2NDkxMzkwMywxNTgxNzU3OTgy
-LDEwNjMzNTg4NzksOTAyMTkyMDM1XX0=
+eyJoaXN0b3J5IjpbNzU5NzA1NDk3LC0yNzE1OTExMjEsLTIwMD
+Y4Nzg3MCw3MjY2ODg3NzIsMzY0OTEzOTAzLDE1ODE3NTc5ODIs
+MTA2MzM1ODg3OSw5MDIxOTIwMzVdfQ==
 -->
