@@ -29,11 +29,13 @@ Podemos conferir o estado usando o cliente do browser, no endereço http://local
 
 ![cliente RavenDB](https://github.com/AndersonGarrote/PMD/blob/master/Instala%C3%A7%C3%A3o/telaraven.png?raw=true)
 
+
+
 Neste ponto, podemos seguir para a **Configuração do Cluster**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNzQ3MDQ5MSwxNTAyMDAzNjM4LDEzMT
-M1ODQ4NzUsLTI3MTU5MTEyMSwtMjAwNjg3ODcwLDcyNjY4ODc3
-MiwzNjQ5MTM5MDMsMTU4MTc1Nzk4MiwxMDYzMzU4ODc5LDkwMj
-E5MjAzNV19
+eyJoaXN0b3J5IjpbLTExNDA2MDMyMDEsMTIyNzQ3MDQ5MSwxNT
+AyMDAzNjM4LDEzMTM1ODQ4NzUsLTI3MTU5MTEyMSwtMjAwNjg3
+ODcwLDcyNjY4ODc3MiwzNjQ5MTM5MDMsMTU4MTc1Nzk4MiwxMD
+YzMzU4ODc5LDkwMjE5MjAzNV19
 -->
