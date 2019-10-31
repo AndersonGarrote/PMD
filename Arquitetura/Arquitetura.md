@@ -1,5 +1,4 @@
 # Arquitetura de Distribuição e Replicação de Dados
-# csdafvdbgfnhjmvbk,
 O RavenDB opera sobre *clusters* que providenciam redundância e disponibilidade dos dados. No contexto do RavenDB, *clusters* são um grupo de servidores denominados *nós* que podem estar em mais de uma máquina. Cada um desses *nós* possuem uma cópia completa do banco de dados localmente, incluindo os documentos e índices, e assim podendo realizar qualquer operação de busca e escrita de dados. Além dessas operações locais em cada *nó*, há também operações que impactam o *cluster* inteiro, sendo no caso operações de, por exemplo, criação de documento. Com essa estrutura, o RavenDB pode ser dividido em duas camadas de funcionamento: **Camada de Cluster** e **Camada de Banco de Dados**.
 A **Camada de Cluster** é composta por nós (3 ou mais, é recomendado um número ímpar) que realizam operações e se comunicam a partir de um protocolo de consenso próprio da RavenDB (chamado de Consenso *Rachis*, uma implementação derivada do protocolo Raft). Esse protocolo define um nó líder responsável por escolher o melhor nó para um determinado cliente, dando preferência a consistência das operações. 
 A **Camada de Banco de Dados** representa os nós de um *cluster* que trabalham em união e cooperativamente e também grupos desses nós. A quantidade de membros nos grupos é definido pelo Fator de Replicação. Cada nó possui uma cópia completa da topologia (informações dos nós que compõe o cluster), no qual especifica qual nó possui qual banco de dados. Esse processo de replicação ocorre sobre uma conexão TCP entre os nós.
@@ -16,12 +15,6 @@ text
 	- Isso, mais a consistência, permite que reads e writes ainda sejam processados contanto que pelo menos um nó esteja live.
 
 <!--stackedit_data:
-eyJkaXNjdXNzaW9ucyI6eyI4NmVEc0xZTENGSm01VFI1Ijp7In
-N0YXJ0Ijo1MiwiZW5kIjo3MiwidGV4dCI6IiMgY3NkYWZ2ZGJn
-Zm5oam12YmssIn19LCJjb21tZW50cyI6eyJNcm5meWNMaTcyck
-NuN2VpIjp7ImRpc2N1c3Npb25JZCI6Ijg2ZURzTFlMQ0ZKbTVU
-UjUiLCJzdWIiOiJnaDozMDgzOTk1NCIsInRleHQiOiJhY2VpIG
-9mZW5zaXZvIGFwYWdhIiwiY3JlYXRlZCI6MTU3MjUzOTkwNTAx
-Mn19LCJoaXN0b3J5IjpbNDkxMDM4MzMsLTE1NTI4MDYwNjAsLT
-M3NTQ4NzMxMF19
+eyJoaXN0b3J5IjpbNjAxMDM4NTY2LC0xNTUyODA2MDYwLC0zNz
+U0ODczMTBdfQ==
 -->
