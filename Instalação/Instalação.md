@@ -15,7 +15,7 @@ Estamos interessados no seguinte comando em um terminal:
 ``
 
 Assim, baixaremos a imagem com RavenDB para Docker.
-> Pode ser necessário estar com um usuário administrador para realizar os comandos. No Linux, basta usar ``sudo
+> Pode ser necessário estar com um usuário administrador para realizar os comandos. No Linux, basta usar `sudo`  antes dos comandos do Docker.
 
 Feito isso, podemos subir um container usando o seguinte comando:
 
@@ -28,7 +28,7 @@ Podemos conferir o estado usando o cliente do browser, no endereço http://local
 Neste ponto, podemos seguir para a **Configuração do Cluster**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTYyNjE5NzQsMTMxMzU4NDg3NSwtMj
-cxNTkxMTIxLC0yMDA2ODc4NzAsNzI2Njg4NzcyLDM2NDkxMzkw
-MywxNTgxNzU3OTgyLDEwNjMzNTg4NzksOTAyMTkyMDM1XX0=
+eyJoaXN0b3J5IjpbLTk0NTM4NDEwLDEzMTM1ODQ4NzUsLTI3MT
+U5MTEyMSwtMjAwNjg3ODcwLDcyNjY4ODc3MiwzNjQ5MTM5MDMs
+MTU4MTc1Nzk4MiwxMDYzMzU4ODc5LDkwMjE5MjAzNV19
 -->
