@@ -24,10 +24,10 @@ Feito isso, podemos subir um container usando o seguinte comando:
 
 Podemos conferir o estado usando o cliente do browser, no endereço http://localhost:8080.
 
-Neste ponto, podemos seguir para a **Configuração do Cluster** 
+Neste ponto, podemos seguir para a **Configuração do Cluster**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDMyODc4NzksLTI3MTU5MTEyMSwtMj
-AwNjg3ODcwLDcyNjY4ODc3MiwzNjQ5MTM5MDMsMTU4MTc1Nzk4
-MiwxMDYzMzU4ODc5LDkwMjE5MjAzNV19
+eyJoaXN0b3J5IjpbMTMxMzU4NDg3NSwtMjcxNTkxMTIxLC0yMD
+A2ODc4NzAsNzI2Njg4NzcyLDM2NDkxMzkwMywxNTgxNzU3OTgy
+LDEwNjMzNTg4NzksOTAyMTkyMDM1XX0=
 -->
