@@ -21,12 +21,12 @@ Feito isso, podemos subir um container usando o seguinte comando:
 	docker run -d -p 8080:8080  ravendb/ravendb
 ``
 
-
+Podendo ser acessado pel
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MTM1MTgxOSwtMjcxNTkxMTIxLC0yMD
-A2ODc4NzAsNzI2Njg4NzcyLDM2NDkxMzkwMywxNTgxNzU3OTgy
-LDEwNjMzNTg4NzksOTAyMTkyMDM1XX0=
+eyJoaXN0b3J5IjpbLTM0NDk5NDQyLC0yNzE1OTExMjEsLTIwMD
+Y4Nzg3MCw3MjY2ODg3NzIsMzY0OTEzOTAzLDE1ODE3NTc5ODIs
+MTA2MzM1ODg3OSw5MDIxOTIwMzVdfQ==
 -->
