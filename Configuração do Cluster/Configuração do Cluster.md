@@ -9,10 +9,12 @@ docker run --name "nodeA" -d -p 8080:8080  ravendb/ravendb
  ``
 
 Onde cada parâmetro significa:
-- `docker`: software container onde criaremos nossos servidores
-- `run`: comando run do Docker que cria um container isolado com processo
--  `--name "nodeA"`: nome (ou apelido) dado ao container para conseguirmos acessar em outros comandos
-- `-d`: container em modo *detatched*, para que possamos usar o mesmo terminal 
+- `docker`: software container onde criaremos nossos servidores.
+- `run`: comando run do Docker que cria um container isolado com processo.
+-  `--name "nodeA"`: nome (ou apelido) dado ao container para conseguirmos acessar em outros comandos.
+- `-d`: container em modo *detatched*, para que possamos usar o mesmo terminal para os próximos comandos.
+
+Mais informações na documentação do comando [run](https://docs.docker.com/engine/reference/run). 
  
 ## Subindo instâncias Membro (Member)
 
@@ -20,6 +22,6 @@ Onde cada parâmetro significa:
 
 ## Criando um banco com replicação
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5OTM0ODg2MiwtMTEyNTAzNjI2NiwtMj
-Q4ODc4NDc1LDM0NjExNTgxOV19
+eyJoaXN0b3J5IjpbNjQ5Njk0MTQzLC0xMTI1MDM2MjY2LC0yND
+g4Nzg0NzUsMzQ2MTE1ODE5XX0=
 -->
