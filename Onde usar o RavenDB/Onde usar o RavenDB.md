@@ -1,4 +1,5 @@
 # Onde usar o RavenDB
+O 
 
 ## Casos de Uso
 - Web Analytics
@@ -8,6 +9,6 @@
 - Fintech Developer TSWG
 ...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzMwMDA0OTMsLTE5NTg0NDUxODNdfQ
+eyJoaXN0b3J5IjpbLTIwNjIxMzAxOTIsLTE5NTg0NDUxODNdfQ
 ==
 -->
