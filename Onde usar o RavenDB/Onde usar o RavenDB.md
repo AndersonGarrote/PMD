@@ -1,5 +1,5 @@
 # Onde usar o RavenDB
-O 
+O RavenDB se destaca por ser um banco de dados orientado a documentos com características ACID.
 
 ## Casos de Uso
 - Web Analytics
@@ -9,6 +9,6 @@ O
 - Fintech Developer TSWG
 ...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjIxMzAxOTIsLTE5NTg0NDUxODNdfQ
+eyJoaXN0b3J5IjpbLTE3MzExMjA1NjMsLTE5NTg0NDUxODNdfQ
 ==
 -->
