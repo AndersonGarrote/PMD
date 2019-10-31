@@ -9,7 +9,7 @@ docker run --name "nodeA" -d -p 8080:8080  ravendb/ravendb
  ``
 
 Onde cada parâmetro significa:
- -
+- `docker`: Programa 
  
 ## Subindo instâncias Membro (Member)
 
@@ -17,6 +17,6 @@ Onde cada parâmetro significa:
 
 ## Criando um banco com replicação
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NzUzMzE0NywtMTEyNTAzNjI2NiwtMj
+eyJoaXN0b3J5IjpbMTQ3OTA0NDc2MCwtMTEyNTAzNjI2NiwtMj
 Q4ODc4NDc1LDM0NjExNTgxOV19
 -->
