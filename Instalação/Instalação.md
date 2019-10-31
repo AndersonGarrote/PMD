@@ -22,7 +22,7 @@ Assim, baixaremos a imagem com RavenDB para Docker.
 Feito isso, podemos subir um container usando o seguinte comando:
 
 ``
-	docker run -d -p 8080:8080  ravendb/ravendb
+	docker run -d -p 8080:8080 -p 38888:38888  ravendb/ravendb
 ``
 
 Podemos conferir o estado usando o cliente do browser, no endereço http://localhost:8080. A seguinte tela deve aparecer:
