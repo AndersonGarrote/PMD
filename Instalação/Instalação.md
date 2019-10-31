@@ -1,8 +1,8 @@
 # Instalando o RavenDB
 
-O ab
+O banco de dados de documentos NoSQL RavenDB 
 https://ravendb.net/download
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzM0MTE3OF19
+eyJoaXN0b3J5IjpbMjAzMjY3NTE2NV19
 -->
