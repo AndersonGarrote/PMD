@@ -13,7 +13,7 @@ Onde cada parâmetro significa:
 - `run`: comando run do Docker que cria um container isolado com processo.
 -  `--name "nodeA"`: nome (ou apelido) dado ao container para conseguirmos acessar em outros comandos.
 - `-d`: container em modo *detatched*, para que possamos usar o mesmo terminal para os próximos comandos.
-- `-p 8080:8080`: mapeamento das portas TCP da máquina hospedeira e do container.  
+- `-p 8080:8080`: mapeamento das portas TCP da máquina hospedeira e do container, no formato < portaHospedeira >:< portaContainer>
 - `ravendb/ravendb`: imagem do RavenDB a ser usada no container
 
 Mais informações na documentação do comando [run](https://docs.docker.com/engine/reference/run). 
@@ -24,6 +24,6 @@ Mais informações na documentação do comando [run](https://docs.docker.com/en
 
 ## Criando um banco com replicação
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDA1NTE3NTAsNjQ5Njk0MTQzLC0xMT
-I1MDM2MjY2LC0yNDg4Nzg0NzUsMzQ2MTE1ODE5XX0=
+eyJoaXN0b3J5IjpbMjExODYxNDg0Niw2NDk2OTQxNDMsLTExMj
+UwMzYyNjYsLTI0ODg3ODQ3NSwzNDYxMTU4MTldfQ==
 -->
