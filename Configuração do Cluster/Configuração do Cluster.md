@@ -5,8 +5,10 @@ Para essa demonstração usaremos a versão gratuita do RavenDB que permite cria
 
 ## Subindo instâncias Membro (Member)
 
-## 
+## Definindo os nós do Cluster
+
+## Criando um banco com replicação
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQ0MjA5NDAsLTI0ODg3ODQ3NSwzND
+eyJoaXN0b3J5IjpbLTExMjUwMzYyNjYsLTI0ODg3ODQ3NSwzND
 YxMTU4MTldfQ==
 -->
