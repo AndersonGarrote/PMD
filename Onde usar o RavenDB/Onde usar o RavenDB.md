@@ -3,7 +3,7 @@ O RavenDB se destaca por ser um banco de dados orientado a documentos com caract
 
 ## Casos de Uso
 - [Web Analytics](https://ravendb.net/articles/big-data-document-database-etl-replication-ravendb-case-study)
-Uma empresa da Inglaterra
+Uma empresa da Inglaterra de 
 
 - Developer Analytics
 - Fintech Developer TSWG
@@ -11,6 +11,6 @@ Uma empresa da Inglaterra
 
 Fonte: https://ravendb.net/news/use-cases
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTc4NzYxNCwtMTYzODAzMzk0LDExND
+eyJoaXN0b3J5IjpbMTkwNzU4NDMxNywxOTkxNzg3NjE0LDExND
 UzMjIxMDksLTE5NTg0NDUxODNdfQ==
 -->
