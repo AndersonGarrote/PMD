@@ -15,15 +15,18 @@ Estamos interessados no seguinte comando em um terminal:
 
 Assim, baixaremos a imagem com ravendb para Docker.
 
-Feito isso, podemos subir um container usando:
+Feito isso, podemos subir um container usando o seguinte comando:
 
 ``
 	docker run -d -p 8080:8080  ravendb/ravendb
 ``
 
 
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjY2ODMwOSwtMjcxNTkxMTIxLC0yMD
+eyJoaXN0b3J5IjpbLTI2MTM1MTgxOSwtMjcxNTkxMTIxLC0yMD
 A2ODc4NzAsNzI2Njg4NzcyLDM2NDkxMzkwMywxNTgxNzU3OTgy
 LDEwNjMzNTg4NzksOTAyMTkyMDM1XX0=
 -->
