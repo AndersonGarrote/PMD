@@ -1,4 +1,4 @@
-# Disponibilidade
+## Disponibilidade
 
 Algumas ações, como criar banco de dados ou índices requerem um consenso do cluster, para isto o RavenDB utiliza o  _Rachis_, uma implementação proprietária de algoritmo de consenso para sistemas distribuídos. Requerendo um quórum de N/2 + 1 processos para que seja possível a eleição de líder.
 
@@ -28,7 +28,8 @@ Em um outro cenário onde **C** foi rebaixado, ficando como um _Watcher_. Ao der
 
 
 Para exemplificar a replicação entre os nós criaremos um Banco de Dados chamado **** com uma coleção chamada ****
---- 
+
+---
 ---
 ---
 Uma _Task_ é definida por um _Group Database_ e é atribuída à um nó somente.
@@ -37,5 +38,5 @@ Um nó também pode ser um nó Mentor, isto ocorre quando este fica responsável
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjI5MDUxOF19
+eyJoaXN0b3J5IjpbLTE3NDI3MjM0MjddfQ==
 -->
