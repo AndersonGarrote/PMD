@@ -25,14 +25,14 @@ Feito isso, podemos subir um container usando o seguinte comando:
 	docker run -d -p 8080:8080  ravendb/ravendb
 ``
 
-Podemos conferir o estado usando o cliente do browser, no endereço http://localhost:8080. 
+Podemos conferir o estado usando o cliente do browser, no endereço http://localhost:8080. A seguinte tela deve aparecer:
 
-
+![enter image description here](https://github.com/AndersonGarrote/PMD/blob/master/Instala%C3%A7%C3%A3o/telaraven.png?raw=true)
 
 Neste ponto, podemos seguir para a **Configuração do Cluster**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDM1NzI3ODYsMTUwMjAwMzYzOCwxMz
+eyJoaXN0b3J5IjpbLTEzNzk3NjQ5MDYsMTUwMjAwMzYzOCwxMz
 EzNTg0ODc1LC0yNzE1OTExMjEsLTIwMDY4Nzg3MCw3MjY2ODg3
 NzIsMzY0OTEzOTAzLDE1ODE3NTc5ODIsMTA2MzM1ODg3OSw5MD
 IxOTIwMzVdfQ==
