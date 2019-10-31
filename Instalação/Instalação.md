@@ -8,14 +8,22 @@ Para fins de demonstração deste tutorial, utilizaremos a versão para Docker, 
 
 Com o Docker instalado, escolheremos a respectiva versão no site do RavenDB, após aceitar os termos e condições. Seremos redirecionados para outra página, com diversas informações de configuração.
 Estamos interessados no seguinte comando:
+
 ``
 	docker pull ravendb/ravendb
 ``
 
+Assim, baixaremos a imagem com ravendb para Docker.
+
+Feito isso, podemos subir um container usando:
+
+``
+	docker 
+``
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxNTc5NDUsLTI3MTU5MTEyMSwtMjAwNj
-g3ODcwLDcyNjY4ODc3MiwzNjQ5MTM5MDMsMTU4MTc1Nzk4Miwx
-MDYzMzU4ODc5LDkwMjE5MjAzNV19
+eyJoaXN0b3J5IjpbLTM4MDYzMjk4OSwtMjcxNTkxMTIxLC0yMD
+A2ODc4NzAsNzI2Njg4NzcyLDM2NDkxMzkwMywxNTgxNzU3OTgy
+LDEwNjMzNTg4NzksOTAyMTkyMDM1XX0=
 -->
