@@ -27,13 +27,13 @@ Feito isso, podemos subir um container usando o seguinte comando:
 
 Podemos conferir o estado usando o cliente do browser, no endereço http://localhost:8080. A seguinte tela deve aparecer:
 
-![enter image description here](https://github.com/AndersonGarrote/PMD/blob/master/Instala%C3%A7%C3%A3o/telaraven.png?raw=true)
+![cliente RavenDB](https://github.com/AndersonGarrote/PMD/blob/master/Instala%C3%A7%C3%A3o/telaraven.png?raw=true)
 
 Neste ponto, podemos seguir para a **Configuração do Cluster**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzk3NjQ5MDYsMTUwMjAwMzYzOCwxMz
-EzNTg0ODc1LC0yNzE1OTExMjEsLTIwMDY4Nzg3MCw3MjY2ODg3
-NzIsMzY0OTEzOTAzLDE1ODE3NTc5ODIsMTA2MzM1ODg3OSw5MD
-IxOTIwMzVdfQ==
+eyJoaXN0b3J5IjpbMTIyNzQ3MDQ5MSwxNTAyMDAzNjM4LDEzMT
+M1ODQ4NzUsLTI3MTU5MTEyMSwtMjAwNjg3ODcwLDcyNjY4ODc3
+MiwzNjQ5MTM5MDMsMTU4MTc1Nzk4MiwxMDYzMzU4ODc5LDkwMj
+E5MjAzNV19
 -->
