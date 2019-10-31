@@ -5,7 +5,7 @@ O banco de dados de documentos NoSQL **RavenDB** pode ser baixado na seção de 
 ## Usando o Docker
 Para fins de demonstração deste tutorial, utilizaremos a versão para Docker, por ser multiplataforma e permitir realizar os testes de instâncias de nós no cluster usando containers.
 
->Para isso, é necessário instalar o docker, pelo instalador de programas do sistema operacional ou direto do site: https://www.docker.com. Nesse endereço também é possível encontrar, mais informações úteis sobre o Docker.
+>Para isso, é necessário instalar o docker, pelo instalador de programas do sistema operacional ou direto do site: [www.docker.com](https://www.docker.com). Nesse endereço também é possível encontrar, mais informações úteis sobre o Docker.
 
 Com o Docker instalado, escolheremos a respectiva versão no site do RavenDB, após aceitar os termos e condições. Seremos redirecionados para outra página, com diversas informações de configuração.
 Estamos interessados no seguinte comando em um terminal:
@@ -27,7 +27,7 @@ Podemos conferir o estado usando o cliente do browser, no endereço http://local
 Neste ponto, podemos seguir para a **Configuração do Cluster**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMzU4NDg3NSwtMjcxNTkxMTIxLC0yMD
-A2ODc4NzAsNzI2Njg4NzcyLDM2NDkxMzkwMywxNTgxNzU3OTgy
-LDEwNjMzNTg4NzksOTAyMTkyMDM1XX0=
+eyJoaXN0b3J5IjpbLTY3OTgyMjY4NCwxMzEzNTg0ODc1LC0yNz
+E1OTExMjEsLTIwMDY4Nzg3MCw3MjY2ODg3NzIsMzY0OTEzOTAz
+LDE1ODE3NTc5ODIsMTA2MzM1ODg3OSw5MDIxOTIwMzVdfQ==
 -->
