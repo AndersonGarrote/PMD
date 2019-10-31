@@ -2,7 +2,7 @@
 Para essa demonstração usaremos a versão gratuita do RavenDB que permite criar um cluster com até 3 nós. Para fazer essa etapa, será necessário ter realizado a 
 
 ## Subindo uma instância Líder (Leader)
-Usando o Docker, criaremos um container com o servidor do RavenDB, com o seguinte comando:
+Usando o Docker, criaremos um container com o servidor do RavenDB, com o seguinte comando no terminal:
  
  ``
 docker run --name "nodeA" -d -p 8080:8080  ravendb/ravendb
@@ -18,7 +18,7 @@ Onde cada parâmetro significa:
 
 Mais informações na documentação do comando [run](https://docs.docker.com/engine/reference/run). 
 
-Prosseguiremos com a configuração, acessando o ende 
+Prosseguiremos com a configuração, acessando o endereço: 
 
 ## Subindo instâncias Membro (Member)
 
@@ -26,6 +26,6 @@ Prosseguiremos com a configuração, acessando o ende
 
 ## Criando um banco com replicação
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjIyOTc4MCw2NDk2OTQxNDMsLTExMj
-UwMzYyNjYsLTI0ODg3ODQ3NSwzNDYxMTU4MTldfQ==
+eyJoaXN0b3J5IjpbNTc5NjE1NTk2LDY0OTY5NDE0MywtMTEyNT
+AzNjI2NiwtMjQ4ODc4NDc1LDM0NjExNTgxOV19
 -->
