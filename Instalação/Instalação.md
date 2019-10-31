@@ -8,10 +8,14 @@ Para fins de demonstração deste tutorial, utilizaremos a versão para Docker, 
 
 Com o Docker instalado, escolheremos a respectiva versão no site do RavenDB, após aceitar os termos e condições. Seremos redirecionados para outra página, com diversas informações de configuração.
 Estamos interessados no seguinte comando:
-`aaaaa`
+``
+	docker pull ravendb/ravendb
+``
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDg5MTMwMDAsLTI3MTU5MTEyMSwtMj
-AwNjg3ODcwLDcyNjY4ODc3MiwzNjQ5MTM5MDMsMTU4MTc1Nzk4
-MiwxMDYzMzU4ODc5LDkwMjE5MjAzNV19
+eyJoaXN0b3J5IjpbNzkxNTc5NDUsLTI3MTU5MTEyMSwtMjAwNj
+g3ODcwLDcyNjY4ODc3MiwzNjQ5MTM5MDMsMTU4MTc1Nzk4Miwx
+MDYzMzU4ODc5LDkwMjE5MjAzNV19
 -->
