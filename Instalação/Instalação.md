@@ -2,8 +2,8 @@
 
 O banco de dados de documentos NoSQL **RavenDB** pode ser baixado na seção de downloads do site: https://ravendb.net/download.
 
-Para fins de demonstração deste tutorial, utilizaremos a versão para Docker, por  
+Para fins de demonstração deste tutorial, utilizaremos a versão para Docker, por ser multipla 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyMTkyMDM1XX0=
+eyJoaXN0b3J5IjpbLTYwNTUzMDg5Nyw5MDIxOTIwMzVdfQ==
 -->
