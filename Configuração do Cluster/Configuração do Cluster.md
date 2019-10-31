@@ -22,10 +22,14 @@ Prosseguiremos com a configuração, acessando o endereço:
 
 ## Subindo instâncias Membro (Member)
 
+
 ## Definindo os nós do Cluster
+
+
 
 ## Criando um banco com replicação
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5NjE1NTk2LDY0OTY5NDE0MywtMTEyNT
-AzNjI2NiwtMjQ4ODc4NDc1LDM0NjExNTgxOV19
+eyJoaXN0b3J5IjpbLTg5OTE1NDU3MCw1Nzk2MTU1OTYsNjQ5Nj
+k0MTQzLC0xMTI1MDM2MjY2LC0yNDg4Nzg0NzUsMzQ2MTE1ODE5
+XX0=
 -->
