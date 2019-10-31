@@ -1,4 +1,4 @@
-# Instalando o RavenDB
+## Instalando o RavenDB
 
 O banco de dados de documentos NoSQL **RavenDB** pode ser baixado na seção de downloads do site: [ravendb.net/download](https://ravendb.net/download).
 
@@ -34,8 +34,8 @@ Podemos conferir o estado usando o cliente do browser, no endereço http://local
 Neste ponto, podemos seguir para a **Configuração do Cluster**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDA2MDMyMDEsMTIyNzQ3MDQ5MSwxNT
-AyMDAzNjM4LDEzMTM1ODQ4NzUsLTI3MTU5MTEyMSwtMjAwNjg3
-ODcwLDcyNjY4ODc3MiwzNjQ5MTM5MDMsMTU4MTc1Nzk4MiwxMD
-YzMzU4ODc5LDkwMjE5MjAzNV19
+eyJoaXN0b3J5IjpbLTYzNzIyMDc2MiwtMTE0MDYwMzIwMSwxMj
+I3NDcwNDkxLDE1MDIwMDM2MzgsMTMxMzU4NDg3NSwtMjcxNTkx
+MTIxLC0yMDA2ODc4NzAsNzI2Njg4NzcyLDM2NDkxMzkwMywxNT
+gxNzU3OTgyLDEwNjMzNTg4NzksOTAyMTkyMDM1XX0=
 -->
