@@ -5,9 +5,6 @@ A **Camada de Banco de Dados** representa os nós de um *cluster* que trabalham 
 Essa distinção é importante para manter várias propriedades ao banco de dados. A eleição de um nó líder pelo consenso *Rachis* oferece a consistência forte, permitindo a continuidade da operação com a garantia do líder de que a maioria dos nós estão funcionando. Isso também significa que cada operação do *cluster* será futuramente aceito ou não pelo *cluster* inteiro. 
 De acordo com o **Teorema CAP**, o *RavenDB* consegue ser **tolerante a partições**, **consistênte** e **disponível**. Mesmo contradizendo o teorema CAP, isso é possível pois ele aborda cada propriedade em uma camada diferente. A camada de *cluster* é  CP, ou seja, consistente mas pode não estar disponível. A camada de *banco de dados* é AP, ou seja, sempre disponível mas pode não estar consistente.
 
-## Consistências
-No *RavenDB*, a camada do banco de dados é replicado em múltiplos nós, compondo um grupo do banco de dados com tamanho determinado pelo Fator de Replicação. Os documentos em cada nó se mantém sincronizado a partir de replicação *master-master*, ou seja, todo nó possui uma cópia do banco de dados de seu grupo e a cada mudança em um documento é replicada automaticamente a outras instâncias do banco de dados. Toda a mudança nos documentos são mantidas de acordo com o *Change Vector*, que é a implementação no RavenDB do conceito de *vector clock* (Vetor de Relógio)
-	- Quórum de consenso ( garantia de execução de tarefas em pelo menos (n/2) + 1 nós )
 
 ## Disponibilidade
 text
@@ -15,7 +12,7 @@ text
 	- Isso, mais a consistência, permite que reads e writes ainda sejam processados contanto que pelo menos um nó esteja live.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDQyMzYwMiw2MDEwMzg1NjYsNDkxMD
-M4MzMsNjAxMDM4NTY2LC0xNTUyODA2MDYwLC0zNzU0ODczMTBd
-fQ==
+eyJoaXN0b3J5IjpbMTQ2ODUzNTI5MiwxMTg0NDIzNjAyLDYwMT
+AzODU2Niw0OTEwMzgzMyw2MDEwMzg1NjYsLTE1NTI4MDYwNjAs
+LTM3NTQ4NzMxMF19
 -->
