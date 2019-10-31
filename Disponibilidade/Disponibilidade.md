@@ -29,7 +29,7 @@ Em um outro cenário onde **C** foi rebaixado, ficando como um _Watcher_. Ao der
 
 Para exemplificar a replicação entre os nós criaremos um Banco de Dados chamado **** com uma coleção chamada ****
 
----
+--- 
 ---
 ---
 Uma _Task_ é definida por um _Group Database_ e é atribuída à um nó somente.
@@ -38,5 +38,5 @@ Um nó também pode ser um nó Mentor, isto ocorre quando este fica responsável
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDI3MjM0MjddfQ==
+eyJoaXN0b3J5IjpbMjE3MDY0Njc1LC0xNzQyNzIzNDI3XX0=
 -->
