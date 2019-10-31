@@ -6,9 +6,10 @@ Para fins de demonstração deste tutorial, utilizaremos a versão para Docker, 
 
 >Para isso, é necessário instalar o docker, pelo instalador de programas do sistema operacional ou direto do site: https://www.docker.com. Nesse endereço também é possível encontrar, mais informações úteis sobre o Docker.
 
-Com o Docker instalado, 
+Com o Docker instalado, escolheremos a respectiva 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI2Njg4NzcyLDM2NDkxMzkwMywxNTgxNz
-U3OTgyLDEwNjMzNTg4NzksOTAyMTkyMDM1XX0=
+eyJoaXN0b3J5IjpbLTIwMDY4Nzg3MCw3MjY2ODg3NzIsMzY0OT
+EzOTAzLDE1ODE3NTc5ODIsMTA2MzM1ODg3OSw5MDIxOTIwMzVd
+fQ==
 -->
