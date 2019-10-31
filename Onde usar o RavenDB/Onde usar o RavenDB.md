@@ -2,8 +2,8 @@
 O RavenDB se destaca por ser um banco de dados orientado a documentos com características ACID em todo o cluster, garantindo grande disponibilidade. 
 
 ## Casos de Uso
-- Web Analytics
-
+- [Web Analytics](https://ravendb.net/articles/big-data-document-database-etl-replication-ravendb-case-study)
+Uma empresa da Inglaterra
 - Developer Analytics
 ...
 - Fintech Developer TSWG
@@ -11,6 +11,6 @@ O RavenDB se destaca por ser um banco de dados orientado a documentos com caract
 
 Fonte: https://ravendb.net/news/use-cases
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTc1NDg0NCwxMTQ1MzIyMTA5LC0xOT
+eyJoaXN0b3J5IjpbLTE2MzgwMzM5NCwxMTQ1MzIyMTA5LC0xOT
 U4NDQ1MTgzXX0=
 -->
