@@ -21,12 +21,12 @@ Feito isso, podemos subir um container usando o seguinte comando:
 	docker run -d -p 8080:8080  ravendb/ravendb
 ``
 
-Podendo conferir cliente no browser no endereço http://localhost:8080.
+Podemos conferir o estado usando o cliente do browser, no endereço http://localhost:8080.
 
-Feito isso, 
+Feito isso, podemos seguir para a **Configuração do cluster 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5Nzk4MjEsLTI3MTU5MTEyMSwtMjAwNj
-g3ODcwLDcyNjY4ODc3MiwzNjQ5MTM5MDMsMTU4MTc1Nzk4Miwx
-MDYzMzU4ODc5LDkwMjE5MjAzNV19
+eyJoaXN0b3J5IjpbMTkxMTY4MTQ3NiwtMjcxNTkxMTIxLC0yMD
+A2ODc4NzAsNzI2Njg4NzcyLDM2NDkxMzkwMywxNTgxNzU3OTgy
+LDEwNjMzNTg4NzksOTAyMTkyMDM1XX0=
 -->
