@@ -11,11 +11,11 @@ Na camada de *cluster*, as transações também são ACID:
  - Isolamento: Não há interferência por outra transação durante as operações.
  - Durabilidade - Com a transação aceita, ela será executada em todos os bancos de dados do nó.
 Porém quando o banco de dados possui índices, então as operações de buscas seguem o modelo BASE devido ao funcionamento dos índices no banco de dados: 
- - Atômico: Garantia de execução da transação se for aprovado pelo quórum e pelo teste de simultaneidade, caso contrário a transação é desfeita.
- - Consistência: Se a transação for completa e os documentos estão sincronizados ao nós, então a requisição feita pelo nó será feita.
+ - *Basically Available*Disponível de forma básica: buscas por índices sempre estão disponíveis, mas podem estar desatualizadas.
+ - : Se a transação for completa e os documentos estão sincronizados ao nós, então a requisição feita pelo nó será feita.
  - Isolamento: Não há interferência por outra transação durante as operações.
  - Durabilidade - Com a transação aceita, ela será executada em todos os bancos de dados do nó.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzg0MDQ4MDYsMzY1Mzg3MTk0LC0yNj
-A1MjE3NzhdfQ==
+eyJoaXN0b3J5IjpbNDkwMzkyMDQyLDM2NTM4NzE5NCwtMjYwNT
+IxNzc4XX0=
 -->
