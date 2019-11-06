@@ -9,9 +9,11 @@ Uma empresa de empregos da Inglaterra usou o RavenDB para
 - Fintech Developer TSWG
 
 
-Fontes: https://ravendb.net/news/use-cases e 
+Fontes: https://ravendb.net/news/use-cases
+https://ayende.com/blog/136196/when-should-you-use-ravendb
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3NTU5NCwtMzcwMTMxMTM5LDE3Nzc0Nz
-g0NzYsMTkwNzU4NDMxNywxOTkxNzg3NjE0LDExNDUzMjIxMDks
-LTE5NTg0NDUxODNdfQ==
+eyJoaXN0b3J5IjpbLTE3NDAyNjQ1MzMsNjk3NTU5NCwtMzcwMT
+MxMTM5LDE3Nzc0Nzg0NzYsMTkwNzU4NDMxNywxOTkxNzg3NjE0
+LDExNDUzMjIxMDksLTE5NTg0NDUxODNdfQ==
 -->
