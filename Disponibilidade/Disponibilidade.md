@@ -17,6 +17,7 @@ Existem quatro tipos de nó:
 - *Member*: Nó membro do *Group Database*, pode se tornar um Líder em caso de eleição.
 - *Watcher*: Nó membro com menos previlégios; não pode ser eleito como Líder em caso de votação, não participando do Quórum.
 - *Promotable*: Estado de nó aplicável apenas em caso de eleição; um nó elegível deve ser membro e estar em pleno funcionamento.
+Mais informações sobre a topologia do *cluster* está disponível nesta [página](https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/rachis/cluster-topology).
 
 Ao derrubarmos o nó **A** teremos uma nova eleição que será realizada pelo quórum restante de Membros:
 
@@ -38,5 +39,6 @@ Um nó também pode ser um nó Mentor, isto ocorre quando este fica responsável
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE3MDY0Njc1LC0xNzQyNzIzNDI3XX0=
+eyJoaXN0b3J5IjpbMTM4Nzc3MzM0OSwyMTcwNjQ2NzUsLTE3ND
+I3MjM0MjddfQ==
 -->
