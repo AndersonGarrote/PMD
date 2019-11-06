@@ -13,11 +13,14 @@ Um banco de dados pode ser replicado em vários nós dentro de um *cluster*, dep
 As relações entre o grupo de banco de dados e cada nó é chamado de Topologia do Banco de Dados.
 
 Atualmente o RavenDB não dá suporte para *sharding*, sendo previsto para ser implementado em uma versão futura. 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTEyMjA5NDAsMTgzOTg4MDEyNywtMT
-E0OTk3NDMyNiwxNjk0MDQyMTIwLC0yODQ5Mjk5OTksMTE0Mzc4
-Mzc2MSwtNDcyNTgwMTgxLC0xODY3MzM1MDIxLC02ODUwODA3MT
-YsNzExNTc3NTEyLDI4MjQ1NjQwNCwxNTQ5MTA5NTY1LDE0Njg1
-MzUyOTIsMTE4NDQyMzYwMiw2MDEwMzg1NjYsNDkxMDM4MzMsNj
-AxMDM4NTY2LC0xNTUyODA2MDYwLC0zNzU0ODczMTBdfQ==
+eyJoaXN0b3J5IjpbLTk0Mzg1NTM0NCwtMjA1MTIyMDk0MCwxOD
+M5ODgwMTI3LC0xMTQ5OTc0MzI2LDE2OTQwNDIxMjAsLTI4NDky
+OTk5OSwxMTQzNzgzNzYxLC00NzI1ODAxODEsLTE4NjczMzUwMj
+EsLTY4NTA4MDcxNiw3MTE1Nzc1MTIsMjgyNDU2NDA0LDE1NDkx
+MDk1NjUsMTQ2ODUzNTI5MiwxMTg0NDIzNjAyLDYwMTAzODU2Ni
+w0OTEwMzgzMyw2MDEwMzg1NjYsLTE1NTI4MDYwNjAsLTM3NTQ4
+NzMxMF19
 -->
