@@ -1,12 +1,9 @@
 
 ## Consistências
 A consistência é mantida na camada de *cluster* pois toda operação feita nesta camada precisa de um consenso, significando que a operação deve ser aceita de acordo com um quórum mínimo dos nós (n / 2  + 1 nós) ou ela não será registrada. Para isso, foi implementado o algoritmo de consenso *Rachis*.  Na camada de banco de dados,  cada banco de dados é replicado para vários nós de um *cluster*, e os nós com o mesmo banco de dados forma um grupo. Todas as mudanças em documentos de um banco de dados são mantidas de acordo com o *Change Vector*, que é a implementação no RavenDB do conceito de *vector clock* (Vetor de Relógio).
-
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjkwOTk4NDYsLTE0OTE1OTQzNDAsLT
-Q2Nzg5NDUsLTE2MTAxMDYyNSwtMTQ5MTUxNjAzOSwtMTY4MDY5
-MjI2NiwxNzgzNTExNjI4LC03NzgxMzM4ODQsLTI4NzAwMzE3NF
-19
+eyJoaXN0b3J5IjpbMjA0MTAyMTE1NCwtMTIyOTA5OTg0NiwtMT
+Q5MTU5NDM0MCwtNDY3ODk0NSwtMTYxMDEwNjI1LC0xNDkxNTE2
+MDM5LC0xNjgwNjkyMjY2LDE3ODM1MTE2MjgsLTc3ODEzMzg4NC
+wtMjg3MDAzMTc0XX0=
 -->
