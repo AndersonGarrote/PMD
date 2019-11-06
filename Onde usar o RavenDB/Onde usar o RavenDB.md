@@ -7,11 +7,11 @@ Uma empresa de empregos da Inglaterra usou o RavenDB para
 
 - Developer Analytics
 - Fintech Developer TSWG
-- 
+
 
 Fontes: https://ravendb.net/news/use-cases e 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MDEzMTEzOSwxNzc3NDc4NDc2LDE5MD
-c1ODQzMTcsMTk5MTc4NzYxNCwxMTQ1MzIyMTA5LC0xOTU4NDQ1
-MTgzXX0=
+eyJoaXN0b3J5IjpbNjk3NTU5NCwtMzcwMTMxMTM5LDE3Nzc0Nz
+g0NzYsMTkwNzU4NDMxNywxOTkxNzg3NjE0LDExNDUzMjIxMDks
+LTE5NTg0NDUxODNdfQ==
 -->
