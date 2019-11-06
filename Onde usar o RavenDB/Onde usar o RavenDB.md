@@ -10,9 +10,9 @@ Uma empresa de empregos da Inglaterra usou o RavenDB para
 
 
 Fontes: https://ravendb.net/news/use-cases
-https://ayende.com/blog/136196/when-should-you-use-ravendb
+https://ayende.com/blog/136196/when-should-you-use-rae
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDI4MDgxMzEsNjk3NTU5NCwtMzcwMT
-MxMTM5LDE3Nzc0Nzg0NzYsMTkwNzU4NDMxNywxOTkxNzg3NjE0
-LDExNDUzMjIxMDksLTE5NTg0NDUxODNdfQ==
+eyJoaXN0b3J5IjpbMTExOTg5MDg2OSwtMTQwMjgwODEzMSw2OT
+c1NTk0LC0zNzAxMzExMzksMTc3NzQ3ODQ3NiwxOTA3NTg0MzE3
+LDE5OTE3ODc2MTQsMTE0NTMyMjEwOSwtMTk1ODQ0NTE4M119
 -->
