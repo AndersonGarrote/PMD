@@ -1,5 +1,5 @@
 # Arquitetura de Distribuição
-O RavenDB opera sobre *clusters* que providenciam redundância e disponibilidade dos dados. No contexto do RavenDB, *clusters* são um grupo de servidores denominados *nós* que podem estar em mais de uma máquina. O RavenDB possui uma divisão de duas camadas de funcionamento: **Camada de Cluster** e **Camada de Banco de Dados**.
+O RavenDB opera sobre *clusters* que providenciam redundância e disponibilidade dos dados. No contexto do RavenDB, *clusters* são um grupo de servidores denominados *nós*, que podem estar em mais de uma máquina. O RavenDB possui uma divisão de duas camadas de funcionamento: **Camada de Cluster** e **Camada de Banco de Dados**.
 A **Camada de Cluster** é composta por nós (3 ou mais, é recomendado um número ímpar) que realizam operações de acordo com o consenso de todos os nós. Esse protocolo é um algoritmo de consenso desenvolvido para o RavenDB (chamado de Consenso *Rachis*, uma implementação derivada do protocolo Raft), e ele define um nó líder responsável por escolher o melhor nó para um determinado cliente, dando preferência a consistência das operações. 
 A **Camada de Banco de Dados** representa os nós de um *cluster* que trabalham em união e cooperativamente. A quantidade de membros nos grupos é definido pelo Fator de Replicação. Cada nó possui uma cópia completa da topologia do *cluster* (informações dos nós que compõe o cluster), no qual especifica qual nó possui um determinado banco de dados. Esse processo de replicação ocorre sobre uma conexão TCP entre os nós.
 Essa distinção é importante para manter várias propriedades ao banco de dados. A eleição de um nó líder pelo consenso *Rachis* oferece a consistência forte, permitindo a continuidade da operação com a garantia do líder de que a maioria dos nós estão funcionando. Isso também significa que cada operação do *cluster* será futuramente aceito ou não pelo *cluster* inteiro. 
@@ -14,7 +14,7 @@ text
 	- Isso, mais a consistência, permite que reads e writes ainda sejam processados contanto que pelo menos um nó esteja live.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTgxNzMyNzAsMTU0OTEwOTU2NSwxND
-Y4NTM1MjkyLDExODQ0MjM2MDIsNjAxMDM4NTY2LDQ5MTAzODMz
-LDYwMTAzODU2NiwtMTU1MjgwNjA2MCwtMzc1NDg3MzEwXX0=
+eyJoaXN0b3J5IjpbMTAwNzIxMTA1MiwxNTQ5MTA5NTY1LDE0Nj
+g1MzUyOTIsMTE4NDQyMzYwMiw2MDEwMzg1NjYsNDkxMDM4MzMs
+NjAxMDM4NTY2LC0xNTUyODA2MDYwLC0zNzU0ODczMTBdfQ==
 -->
