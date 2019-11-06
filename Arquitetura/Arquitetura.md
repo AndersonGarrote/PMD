@@ -6,7 +6,7 @@ Essa distinção é importante para manter várias propriedades do RavenDB. A el
 De acordo com o **Teorema CAP**, o *RavenDB* consegue ser **tolerante a partições**, **consistênte** e **disponível**. Mesmo contradizendo o teorema CAP, isso é possível pois ele aborda cada propriedade em uma camada diferente. A camada de *cluster* é  CP, ou seja, consistente mas pode não estar disponível. A camada de *banco de dados* é AP, ou seja, sempre disponível mas consegue ser consistente.
 
 # Replicação de Dados
-Um banco de dados pode ser replicado em vários nós dentro de um *cluster*, dependendo do Fator de Replicação. Quando um nó possui um banco de dados ele é chamado de *nó de banco de dados*, e um *grupo de banco de dados* pode ser formado Cada um desses *nós* possuem uma cópia completa do banco de dados localmente, incluindo os documentos e índices, e assim podendo realizar qualquer operação de busca e escrita de dados. Além dessas operações locais em cada *nó*, há também operações que impactam o *cluster* inteiro, sendo no caso operações de, por exemplo, criação de documento.
+Um banco de dados pode ser replicado em vários nós dentro de um *cluster*, dependendo do Fator de Replicação. Quando um nó possui um banco de dados ele é chamado de *nó de banco de dados*. Cada um desses *nós* possuem uma cópia completa do banco de dados localmente, incluindo os documentos e índices, e assim podendo realizar qualquer operação de busca e escrita de dados. Além dessas operações locais em cada *nó*, há também operações que impactam o *cluster* inteiro, sendo no caso operações de, por exemplo, criação de documento. Um *grupo de banco de dados* pode ser formado por vários desses nós, e quando um banco de da
 
 ## Disponibilidade
 text
@@ -14,9 +14,9 @@ text
 	- Isso, mais a consistência, permite que reads e writes ainda sejam processados contanto que pelo menos um nó esteja live.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyODg2NTQwMSwtMTg2NzMzNTAyMSwtNj
-g1MDgwNzE2LDcxMTU3NzUxMiwyODI0NTY0MDQsMTU0OTEwOTU2
-NSwxNDY4NTM1MjkyLDExODQ0MjM2MDIsNjAxMDM4NTY2LDQ5MT
-AzODMzLDYwMTAzODU2NiwtMTU1MjgwNjA2MCwtMzc1NDg3MzEw
-XX0=
+eyJoaXN0b3J5IjpbNzE5NTQyMTQ4LC0xODY3MzM1MDIxLC02OD
+UwODA3MTYsNzExNTc3NTEyLDI4MjQ1NjQwNCwxNTQ5MTA5NTY1
+LDE0Njg1MzUyOTIsMTE4NDQyMzYwMiw2MDEwMzg1NjYsNDkxMD
+M4MzMsNjAxMDM4NTY2LC0xNTUyODA2MDYwLC0zNzU0ODczMTBd
+fQ==
 -->
