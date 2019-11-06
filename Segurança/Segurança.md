@@ -4,8 +4,7 @@ No modo de desenvolvimento, o RavenDB roda no modo inseguro, porém em estágio 
 
 RavenDB oferece criptografia completa do banco e dados usando a bibliotaca _libsodium_.
 
-
-> Written with [StackEdit](https://stackedit.io/).
+Fonte: https://ravendb.net/docs/article-page/4.2/csharp/server/security/overview
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg4MjM4MzA4XX0=
+eyJoaXN0b3J5IjpbLTE0Mzc5ODExNzEsNDg4MjM4MzA4XX0=
 -->
