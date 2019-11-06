@@ -8,6 +8,7 @@ De acordo com o **Teorema CAP**, o *RavenDB* consegue ser **tolerante a partiç�
 # Replicação de Dados
 Um banco de dados pode ser replicado em vários nós dentro de um *cluster*, dependendo do Fator de Replicação. Quando um nó possui um banco de dados ele é chamado de *nó de banco de dados*. Cada um desses *nós* possuem uma cópia completa do banco de dados localmente, incluindo os documentos e índices, e assim podendo realizar qualquer operação de busca e escrita de dados. Além dessas operações locais em cada *nó*, há também operações que impactam o *cluster* inteiro, sendo no caso operações de, por exemplo, criação de documento. Um *grupo de banco de dados* pode ser formado por vários desses nós, e quando um banco de dados novo é criado, pode-se escolher em quais nós ele existe.
  Cada nó se mantém sincronizado a partir de replicação *master-master*, ou seja, todo nó possui uma cópia do banco de dados de seu grupo e a cada mudança é replicada automaticamente a outras instâncias do banco de dados. Isso significa que se tivermos um *cluster* com os nós A, B e C e criarmos um banco de dados com 2 de fator de replicação, esse banco estará nos nós B e C.
+ Na camada de *clusters* 
 
 As relações entre o grupo de banco de dados e cada nó é chamado de Topologia do Banco de Dados.
 
@@ -19,9 +20,10 @@ text
 	- Isso, mais a consistência, permite que reads e writes ainda sejam processados contanto que pelo menos um nó esteja live.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDA0MjEyMCwtMjg0OTI5OTk5LDExND
-M3ODM3NjEsLTQ3MjU4MDE4MSwtMTg2NzMzNTAyMSwtNjg1MDgw
-NzE2LDcxMTU3NzUxMiwyODI0NTY0MDQsMTU0OTEwOTU2NSwxND
-Y4NTM1MjkyLDExODQ0MjM2MDIsNjAxMDM4NTY2LDQ5MTAzODMz
-LDYwMTAzODU2NiwtMTU1MjgwNjA2MCwtMzc1NDg3MzEwXX0=
+eyJoaXN0b3J5IjpbLTEwOTAwNzQyODYsMTY5NDA0MjEyMCwtMj
+g0OTI5OTk5LDExNDM3ODM3NjEsLTQ3MjU4MDE4MSwtMTg2NzMz
+NTAyMSwtNjg1MDgwNzE2LDcxMTU3NzUxMiwyODI0NTY0MDQsMT
+U0OTEwOTU2NSwxNDY4NTM1MjkyLDExODQ0MjM2MDIsNjAxMDM4
+NTY2LDQ5MTAzODMzLDYwMTAzODU2NiwtMTU1MjgwNjA2MCwtMz
+c1NDg3MzEwXX0=
 -->
