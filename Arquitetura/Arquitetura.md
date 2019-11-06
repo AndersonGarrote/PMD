@@ -6,7 +6,7 @@ Essa distinção é importante para manter várias propriedades do RavenDB. A el
 De acordo com o **Teorema CAP**, o *RavenDB* consegue ser **tolerante a partições**, **consistênte** e **disponível**. Mesmo contradizendo o teorema CAP, isso é possível pois ele aborda cada propriedade em uma camada diferente. A camada de *cluster* é  CP, ou seja, consistente mas pode não estar disponível. A camada de *banco de dados* é AP, ou seja, sempre disponível mas consegue ser consistente.
 
 # Replicação de Dados
-Um banco de dados pode ser replicado em vários nós dentro de um *cluster*, dependendo do Fator de Replicação. Quando um nó possui um banco de dados ele é chamado de *nó de banco de dados*. Cada um desses *nós* possuem uma cópia completa do banco de dados localmente, incluindo os documentos e índices, e assim podendo realizar qualquer operação de busca e escrita de dados. Além dessas operações locais em cada *nó*, há também operações que impactam o *cluster* inteiro, sendo no caso operações de, por exemplo, criação de documento. Um *grupo de banco de dados* pode ser formado por vários desses nós, e quando um banco de dados novo é criado, pode-se escolher em quais nós ele existe. Dentro desse grupo é mantido ativamente uma replicação *master-master*. Isso significa que se tivermos um *cluster* com os nós A, B e C e criarmos um banco de dados com fator de replicação 2
+Um banco de dados pode ser replicado em vários nós dentro de um *cluster*, dependendo do Fator de Replicação. Quando um nó possui um banco de dados ele é chamado de *nó de banco de dados*. Cada um desses *nós* possuem uma cópia completa do banco de dados localmente, incluindo os documentos e índices, e assim podendo realizar qualquer operação de busca e escrita de dados. Além dessas operações locais em cada *nó*, há também operações que impactam o *cluster* inteiro, sendo no caso operações de, por exemplo, criação de documento. Um *grupo de banco de dados* pode ser formado por vários desses nós, e quando um banco de dados novo é criado, pode-se escolher em quais nós ele existe. Dentro desse grupo é mantido ativamente uma replicação *master-master*. Isso significa que se tivermos um *cluster* com os nós A, B e C e criarmos um banco de dados com 2 de fator de replicação, esse banco estará nos nós B e C.
 
 ## Disponibilidade
 text
@@ -14,9 +14,9 @@ text
 	- Isso, mais a consistência, permite que reads e writes ainda sejam processados contanto que pelo menos um nó esteja live.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2NjM1MjcsLTQ3MjU4MDE4MSwtMTg2Nz
-MzNTAyMSwtNjg1MDgwNzE2LDcxMTU3NzUxMiwyODI0NTY0MDQs
-MTU0OTEwOTU2NSwxNDY4NTM1MjkyLDExODQ0MjM2MDIsNjAxMD
-M4NTY2LDQ5MTAzODMzLDYwMTAzODU2NiwtMTU1MjgwNjA2MCwt
-Mzc1NDg3MzEwXX0=
+eyJoaXN0b3J5IjpbLTk0NTI2MzA5MSwtNDcyNTgwMTgxLC0xOD
+Y3MzM1MDIxLC02ODUwODA3MTYsNzExNTc3NTEyLDI4MjQ1NjQw
+NCwxNTQ5MTA5NTY1LDE0Njg1MzUyOTIsMTE4NDQyMzYwMiw2MD
+EwMzg1NjYsNDkxMDM4MzMsNjAxMDM4NTY2LC0xNTUyODA2MDYw
+LC0zNzU0ODczMTBdfQ==
 -->
