@@ -10,15 +10,17 @@ Um banco de dados pode ser replicado em vários nós dentro de um *cluster*, dep
 
 As relações entre o grupo de banco de dados e cada nó é chamado de Topologia do Banco de Dados.
 
+Atualmente
+
 ## Disponibilidade
 text
 	- Todo nó possui uma cópia do database
 	- Isso, mais a consistência, permite que reads e writes ainda sejam processados contanto que pelo menos um nó esteja live.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0Mzc4Mzc2MSwtNDcyNTgwMTgxLC0xOD
-Y3MzM1MDIxLC02ODUwODA3MTYsNzExNTc3NTEyLDI4MjQ1NjQw
-NCwxNTQ5MTA5NTY1LDE0Njg1MzUyOTIsMTE4NDQyMzYwMiw2MD
-EwMzg1NjYsNDkxMDM4MzMsNjAxMDM4NTY2LC0xNTUyODA2MDYw
-LC0zNzU0ODczMTBdfQ==
+eyJoaXN0b3J5IjpbMTMxNDQyOTc0NywxMTQzNzgzNzYxLC00Nz
+I1ODAxODEsLTE4NjczMzUwMjEsLTY4NTA4MDcxNiw3MTE1Nzc1
+MTIsMjgyNDU2NDA0LDE1NDkxMDk1NjUsMTQ2ODUzNTI5MiwxMT
+g0NDIzNjAyLDYwMTAzODU2Niw0OTEwMzgzMyw2MDEwMzg1NjYs
+LTE1NTI4MDYwNjAsLTM3NTQ4NzMxMF19
 -->
