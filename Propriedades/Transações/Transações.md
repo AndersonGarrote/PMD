@@ -9,8 +9,9 @@ Na camada de *cluster*, as transações também são ACID:
  - Atômico: Garantia de execução da transação se for aprovado pelo quórum e pelo teste de simultaneidade, caso contrário a transação é desfeita.
  - Consistência: Se a transação for completa e os documentos estão sincronizados ao nós, então a requisição feita pelo nó será feita.
  - Isolamento: Não há interferência por outra transação durante as operações.
- - Durabilidade - Com a transação aceita.
+ - Durabilidade - Com a transação aceita, ela será executada em todos os bancos de dados do nó.
+Porém quando o banco de dados possui índices, então as operações de buscas seguem o modelo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNjEwODU3NCwzNjUzODcxOTQsLTI2MD
+eyJoaXN0b3J5IjpbMTIyNjkzNTM0NCwzNjUzODcxOTQsLTI2MD
 UyMTc3OF19
 -->
