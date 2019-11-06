@@ -6,13 +6,15 @@ Essa distinção é importante para manter várias propriedades ao banco de dado
 De acordo com o **Teorema CAP**, o *RavenDB* consegue ser **tolerante a partições**, **consistênte** e **disponível**. Mesmo contradizendo o teorema CAP, isso é possível pois ele aborda cada propriedade em uma camada diferente. A camada de *cluster* é  CP, ou seja, consistente mas pode não estar disponível. A camada de *banco de dados* é AP, ou seja, sempre disponível mas pode não estar consistente.
 
 
+# Replicação de Dados
+
 ## Disponibilidade
 text
 	- Todo nó possui uma cópia do database
 	- Isso, mais a consistência, permite que reads e writes ainda sejam processados contanto que pelo menos um nó esteja live.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTEwOTU2NSwxNDY4NTM1MjkyLDExOD
-Q0MjM2MDIsNjAxMDM4NTY2LDQ5MTAzODMzLDYwMTAzODU2Niwt
-MTU1MjgwNjA2MCwtMzc1NDg3MzEwXX0=
+eyJoaXN0b3J5IjpbNDIxODg4OTMsMTU0OTEwOTU2NSwxNDY4NT
+M1MjkyLDExODQ0MjM2MDIsNjAxMDM4NTY2LDQ5MTAzODMzLDYw
+MTAzODU2NiwtMTU1MjgwNjA2MCwtMzc1NDg3MzEwXX0=
 -->
