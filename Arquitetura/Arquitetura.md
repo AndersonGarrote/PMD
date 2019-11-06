@@ -1,6 +1,6 @@
 # Arquitetura de Distribuição
 O RavenDB opera sobre *clusters* que providenciam redundância e disponibilidade dos dados. No contexto do RavenDB, *clusters* são um grupo de servidores chamados de *nós* e podem estar em mais de uma máquina. O RavenDB possui uma divisão de duas camadas de funcionamento: **Camada de Cluster** e **Camada de Banco de Dados**.
-A **Camada de Cluster** é composta por nós (3 ou mais, é recomendado um número ímpar) que realizam operações de acordo com o consenso de todos os nós. Esse protocolo é um algoritmo de consenso desenvolvido para o RavenDB (chamado de Consenso *Rachis*, uma implementação derivada do protocolo Raft), e ele define um nó líder responsável por escolher o melhor nó para um determinado cliente, dando preferência a consistência das operações. 
+A **Camada de Cluster** é composta por nós (3 ou mais, é recomendado um número ímpar) que realizam operações de acordo com o consenso de todos os nós. Esse protocolo é um algoritmo de consenso desenvolvido para o RavenDB (chamado de Consenso *Rachis*, uma implementação derivada do protocolo [Raft](https://raft.github.io/)), e ele define um nó líder responsável por escolher o melhor nó para um determinado cliente, dando preferência a consistência das operações. 
 A **Camada de Banco de Dados** representa bancos de dados de um *cluster* que formam um grupo e trabalham em união e cooperativamente. A quantidade de membros nos grupos é definido pelo Fator de Replicação. Cada nó possui uma cópia completa da topologia do *cluster* (informações dos nós que compõe o cluster), no qual especifica qual nó possui um determinado banco de dados. Esse processo de replicação ocorre sobre uma conexão TCP entre os nós.
 Essa distinção é importante para manter várias propriedades do RavenDB. A eleição de um nó líder pelo consenso *Rachis* oferece a consistência forte, permitindo a continuidade da operação com a garantia do líder de que a maioria dos nós estão funcionando. Isso também significa que cada operação do *cluster* será futuramente aceita, ou não, pelo *cluster* inteiro. 
 De acordo com o **Teorema CAP**, o *RavenDB* consegue ser **tolerante a partições**, **consistênte** e **disponível**. Mesmo contradizendo o teorema CAP, isso é possível pois ele aborda cada propriedade em uma camada diferente. A camada de *cluster* é  CP, ou seja, consistente mas pode não estar disponível. A camada de *banco de dados* é AP, ou seja, sempre disponível mas consegue ser consistente.
@@ -14,10 +14,10 @@ As relações entre o grupo de banco de dados e cada nó é chamado de Topologia
 
 Atualmente o RavenDB não dá suporte para *sharding*, sendo previsto para ser implementado em uma versão futura. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTg4MDEyNywtMTE0OTk3NDMyNiwxNj
-k0MDQyMTIwLC0yODQ5Mjk5OTksMTE0Mzc4Mzc2MSwtNDcyNTgw
-MTgxLC0xODY3MzM1MDIxLC02ODUwODA3MTYsNzExNTc3NTEyLD
-I4MjQ1NjQwNCwxNTQ5MTA5NTY1LDE0Njg1MzUyOTIsMTE4NDQy
-MzYwMiw2MDEwMzg1NjYsNDkxMDM4MzMsNjAxMDM4NTY2LC0xNT
-UyODA2MDYwLC0zNzU0ODczMTBdfQ==
+eyJoaXN0b3J5IjpbLTIwNTEyMjA5NDAsMTgzOTg4MDEyNywtMT
+E0OTk3NDMyNiwxNjk0MDQyMTIwLC0yODQ5Mjk5OTksMTE0Mzc4
+Mzc2MSwtNDcyNTgwMTgxLC0xODY3MzM1MDIxLC02ODUwODA3MT
+YsNzExNTc3NTEyLDI4MjQ1NjQwNCwxNTQ5MTA5NTY1LDE0Njg1
+MzUyOTIsMTE4NDQyMzYwMiw2MDEwMzg1NjYsNDkxMDM4MzMsNj
+AxMDM4NTY2LC0xNTUyODA2MDYwLC0zNzU0ODczMTBdfQ==
 -->
