@@ -13,8 +13,8 @@ Na camada de *cluster*, as transações também são ACID:
 Porém quando o banco de dados possui índices, então as operações de buscas seguem o modelo BASE devido ao funcionamento dos índices no banco de dados: 
  - *Basically Available* (Disponível de forma básica): buscas por índices sempre estão disponíveis, mas podem estar desatualizadas.
  - *Soft State* (Estado simples): O estado do sistema pode mudar com o tempo dependendo da demora da indexação.
- - Eventual Consistency (Consistência Futura): o banco de dados ser
+ - Eventual Consistency (Consistência Futura): o banco de dados será consistênte quando a indexação acabar e não receber novos documentos.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NzA5MTA1NywzNjUzODcxOTQsLTI2MD
-UyMTc3OF19
+eyJoaXN0b3J5IjpbLTEwNjIxNjUwMjIsMzY1Mzg3MTk0LC0yNj
+A1MjE3NzhdfQ==
 -->
