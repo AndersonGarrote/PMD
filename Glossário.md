@@ -1,11 +1,9 @@
 
 # Glossário
 
-Cluster
-
-
+ - Cluster
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzQwODExNF19
+eyJoaXN0b3J5IjpbLTExMTY2MDQ2ODNdfQ==
 -->
