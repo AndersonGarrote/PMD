@@ -6,7 +6,7 @@ Essa distinção é importante para manter várias propriedades do RavenDB. A el
 De acordo com o **Teorema CAP**, o *RavenDB* consegue ser **tolerante a partições**, **consistênte** e **disponível**. Mesmo contradizendo o teorema CAP, isso é possível pois ele aborda cada propriedade em uma camada diferente. A camada de *cluster* é  CP, ou seja, consistente mas pode não estar disponível. A camada de *banco de dados* é AP, ou seja, sempre disponível mas consegue ser consistente.
 
 # Replicação de Dados
-Cada um desses *nós* possuem uma cópia completa do banco de dados localmente, incluindo os documentos e índices, e assim podendo realizar qualquer operação de busca e escrita de dados. Além dessas operações locais em cada *nó*, há também operações que impactam o *cluster* inteiro, sendo no caso operações de, por exemplo, criação de documento.
+Um banco de dados pode ser replicado em vários nós dentro de um *cluster*, dependendo do Fator de Replicação. Quando um nó possui um banco de dados ele é chamado de *nó de banco de dados*Cada um desses *nós* possuem uma cópia completa do banco de dados localmente, incluindo os documentos e índices, e assim podendo realizar qualquer operação de busca e escrita de dados. Além dessas operações locais em cada *nó*, há também operações que impactam o *cluster* inteiro, sendo no caso operações de, por exemplo, criação de documento.
 
 ## Disponibilidade
 text
@@ -14,8 +14,8 @@ text
 	- Isso, mais a consistência, permite que reads e writes ainda sejam processados contanto que pelo menos um nó esteja live.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTA4MDcxNiw3MTE1Nzc1MTIsMjgyND
-U2NDA0LDE1NDkxMDk1NjUsMTQ2ODUzNTI5MiwxMTg0NDIzNjAy
-LDYwMTAzODU2Niw0OTEwMzgzMyw2MDEwMzg1NjYsLTE1NTI4MD
-YwNjAsLTM3NTQ4NzMxMF19
+eyJoaXN0b3J5IjpbLTE4NjczMzUwMjEsLTY4NTA4MDcxNiw3MT
+E1Nzc1MTIsMjgyNDU2NDA0LDE1NDkxMDk1NjUsMTQ2ODUzNTI5
+MiwxMTg0NDIzNjAyLDYwMTAzODU2Niw0OTEwMzgzMyw2MDEwMz
+g1NjYsLTE1NTI4MDYwNjAsLTM3NTQ4NzMxMF19
 -->
