@@ -5,10 +5,10 @@
  - Fator de Replicação: Número de réplicas de banco de dados em um *cluster*.
  - Nó do *Cluster*: Membro de um cluster que executa operações de *clusters* controlados pelo consenso *Rachis*.
  - Grupo de Banco de Dados: Nós que possuem o mesmo banco de dados.
- - Teorema CAP
+ - Teorema CAP:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0MDQwOTY5LC0xMzkxMjM3MTMyLC0xMT
-E2NjA0NjgzXX0=
+eyJoaXN0b3J5IjpbMTI5ODA5MTc4MSw3ODQwNDA5NjksLTEzOT
+EyMzcxMzIsLTExMTY2MDQ2ODNdfQ==
 -->
