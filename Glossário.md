@@ -7,10 +7,12 @@
  - Nó do *Cluster*: Membro de um cluster que executa operações de *clusters* controlados pelo consenso *Rachis*.
  - Grupo de Banco de Dados: Nós que possuem o mesmo banco de dados.
  - Teorema CAP:
+
 Fonte: https://ravendb.net
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjYxMTc5MTMsMTI5ODA5MTc4MSw3OD
-QwNDA5NjksLTEzOTEyMzcxMzIsLTExMTY2MDQ2ODNdfQ==
+eyJoaXN0b3J5IjpbLTU1MTQ1ODczMSwtMTEyNjExNzkxMywxMj
+k4MDkxNzgxLDc4NDA0MDk2OSwtMTM5MTIzNzEzMiwtMTExNjYw
+NDY4M119
 -->
