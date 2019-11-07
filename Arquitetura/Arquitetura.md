@@ -9,18 +9,18 @@ De acordo com o **Teorema CAP**, o *RavenDB* consegue ser **tolerante a partiç�
 Um banco de dados pode ser replicado em vários nós dentro de um *cluster*, dependendo do Fator de Replicação. Quando um nó possui um banco de dados ele é chamado de *nó de banco de dados*. Cada um desses *nós* possuem uma cópia completa do banco de dados localmente, incluindo os documentos e índices, e assim podendo realizar qualquer operação de busca e escrita de dados. Além dessas operações locais em cada *nó*, há também operações que impactam o *cluster* inteiro, sendo no caso operações de, por exemplo, criação de documento. Um *grupo de banco de dados* pode ser formado por vários desses nós, e quando um banco de dados novo é criado, pode-se escolher em quais nós ele existe.
  Cada nó se mantém sincronizado a partir de replicação *master-master*, ou seja, todo nó possui uma cópia do banco de dados de seu grupo e a cada mudança é replicada automaticamente a outras instâncias do banco de dados. Isso significa que se tivermos um *cluster* com os nós A, B e C e criarmos um banco de dados com 2 de fator de replicação, esse banco estará nos nós B e C.
  Na camada de *clusters* é feita a replicação entre dois grupos de bancos de dados (Denominada de Replicação Externa) de forma semelhante a replicação tradicional. 
-
-As relações entre o grupo de banco de dados e cada nó é chamado de Topologia do Banco de Dados.
-
 Atualmente o RavenDB não dá suporte para *sharding*, sendo previsto para ser implementado em uma versão futura. 
+
+## Fontes
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Mzg1NTM0NCwtMjA1MTIyMDk0MCwxOD
-M5ODgwMTI3LC0xMTQ5OTc0MzI2LDE2OTQwNDIxMjAsLTI4NDky
-OTk5OSwxMTQzNzgzNzYxLC00NzI1ODAxODEsLTE4NjczMzUwMj
-EsLTY4NTA4MDcxNiw3MTE1Nzc1MTIsMjgyNDU2NDA0LDE1NDkx
-MDk1NjUsMTQ2ODUzNTI5MiwxMTg0NDIzNjAyLDYwMTAzODU2Ni
-w0OTEwMzgzMyw2MDEwMzg1NjYsLTE1NTI4MDYwNjAsLTM3NTQ4
-NzMxMF19
+eyJoaXN0b3J5IjpbLTM0MTA0NTUwMSwtOTQzODU1MzQ0LC0yMD
+UxMjIwOTQwLDE4Mzk4ODAxMjcsLTExNDk5NzQzMjYsMTY5NDA0
+MjEyMCwtMjg0OTI5OTk5LDExNDM3ODM3NjEsLTQ3MjU4MDE4MS
+wtMTg2NzMzNTAyMSwtNjg1MDgwNzE2LDcxMTU3NzUxMiwyODI0
+NTY0MDQsMTU0OTEwOTU2NSwxNDY4NTM1MjkyLDExODQ0MjM2MD
+IsNjAxMDM4NTY2LDQ5MTAzODMzLDYwMTAzODU2NiwtMTU1Mjgw
+NjA2MF19
 -->
