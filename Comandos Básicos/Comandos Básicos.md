@@ -1,37 +1,59 @@
 # Conceitos e comandos e xo básicos
-[RQL](https://ravendb.net/docs/article-page/4.2/csharp/indexes/querying/what-is-rql)
+O RavenDB possí uma linguagem de sonsulta própria chamada [RQL](https://ravendb.net/docs/article-page/4.2/csharp/indexes/querying/what-is-rql), similar à SQL, mas com consultas escritas em uma ordem um pouco diferente.
 
-Cláusula `from`
+## Exemplos de consultas 
+
+### Cláusula `from`
 RQL: `from <collection>`
-Exemplo:
+
+- Exemplo:
+Retornar todos os documentos da coleção Employees
+
 RQL: `from Employees`
+
 SQL: `select * from Employees`
 
-Cláusula `where`
+### Cláusula `where`
 RQL: `where <operation>`
-Exemplo:
+
+- Exemplo:
+Retornar todos os Produtos com preço por unidade = 15
+
 RQL: `from Products where PricePerUnit = 15`
+
 SQL: `select * from Products where PricePerUnit = 15`
 
-Cláusula `select`
+### Cláusula `select`
 RQL: `select <column>`
-Exemplo:
+
+- Exemplo:
+Retornar os nomes dos Produtos com preço por unidade = 15
+
 RQL: `from Products where PricePerUnit = 15 select Name`
+
 SQL: `select Name from Products where PricePerUnit = 15`
 
-Cláusula `order by`
+### Cláusula `order by`
 RQL: `order by <column> as <DataType> <OrderingType>`
-Exemplo:
+
+- Exemplo:
+Retornar Produtos com preço por unidade = 15 ordenados pelo nome
+
 RQL: `from Products where PricePerUnit = 15 select Name`
+
 SQL: `select Name from Products where PricePerUnit = 15`
 
-Cláusula `group by`
+### Cláusula `group by`
 RQL: `group by <column>`
+
 Exemplo:
+Retornar Fornecedores com mais de 15 produtos
+
 RQL: `from Products group by Supplier where count() > 15`
+
 SQL: `select * from Products where count(Supplier) = 15 group by Supplier`
 
-> Retorna fornecedores com mais de 15 produtos`
+`
 
 Saiba mais sobre RQL em: https://ravendb.net/docs/article-page/4.2/csharp/indexes/querying/what-is-rql
 <!--stackedit_data:
