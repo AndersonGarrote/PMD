@@ -65,14 +65,18 @@ Digite o IP correspondente no campo indicado:
 Clique em Next para continuar. 
 
 Reinicie o servidor:
-![reiniciar servidor]()
+![reiniciar servidor](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Captura%20de%20tela%20de%202019-11-06%2022-41-10.png)
 
 Faça o mesmo processo para o outro nó membro.
 
 ### Líder
-O processo é bem parecido, com o detalhe de selecionar apenas a opção *Create new Cluster* e definir o nome do nó, na tela de configuração de endereços:
+O processo é bem parecido, seguindo os mesmo passos, com o detalhe de selecionar apenas a opção *Create new Cluster* e definir o nome do nó, na tela de configuração de endereços:
 
-Ao final, reinicie o nó:
+![opçao cluster](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_224426_172.17.0.3.png)
+
+Clique em Next e ao final, reinicie o nó:
+
+![reiniciar servidor](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Captura%20de%20tela%20de%202019-11-06%2022-41-10.png)
 
 ### Definindo a topologia
 Com o navegador aberto no endereço do nó A, usaremos o RavenStudio para definir a topologia do *cluster*.SH
