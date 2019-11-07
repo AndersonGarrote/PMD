@@ -1,12 +1,13 @@
 # Conceitos e comandos e básicos
 
 Por ser um banco de dados NoSQL, alguns conceitos são diferentes se comparados com um RDBMS comum, mas podemos fazer um paralelo entra a nomenclatura de cada um deles: 
-| RavenDB  | RDBMS |
-|--|--|
-| collection | table  |
-| document | row |
-| field | column |
-| index | index |
+
+|  RavenDB    | RDBMS  |
+|-------------|--------|
+| collection  | table  |
+| document    | row    |
+| field       | column |
+| index       | index  |
 
 O RavenDB possí uma linguagem de consulta própria chamada [RQL](https://ravendb.net/docs/article-page/4.2/csharp/indexes/querying/what-is-rql), similar à SQL, mas com consultas escritas em uma ordem um pouco diferente.
 
