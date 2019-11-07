@@ -32,9 +32,10 @@ Em um outro cenário onde **C** foi rebaixado, ficando como um _Watcher_. Ao der
 
 ![enter image description here](https://lh3.googleusercontent.com/3nzanwWTxJskAwdI-GX9YnNXpGNwEmVgcajBcyU7a8xvMuFGtQf9vlCl3ioocI9tFTKkhVjdaN4)
 
+Fonte:[https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overview](https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overview)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTIwMDc4NTQsMTM4Nzc3MzM0OSwyMT
+eyJoaXN0b3J5IjpbLTExNDgzNTEyMjksMTM4Nzc3MzM0OSwyMT
 cwNjQ2NzUsLTE3NDI3MjM0MjddfQ==
 -->
