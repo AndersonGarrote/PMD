@@ -6,8 +6,8 @@
  - **Fator de Replicação**: Número de réplicas de banco de dados em um *cluster*.
  - **Nó do *Cluster***: Membro de um cluster que executa operações de *clusters* controlados pelo consenso *Rachis*.
  - **Nó *Leader* (Líder)**: Nó responsável por coordenar o *cluster*, adicionar novos nós e monitorar seus estados. É sempre um Membro.
- - **Nó *Member* (Membro)**: Nó capaz de votar em caso de eleição de Líder.
- - **Nó *Watcher* (Membro)**: Nó capaz de votar em caso de eleição de Líder.
+ - **Nó *Member* (Membro)**: Nó capaz de votar em caso de eleição de Líder. Respondem a requisições normalmente.
+ - **Nó *Watcher* (Observador)**: Nó incapaz de votar em caso de eleição de Líder.
  - **Grupo de Banco de Dados**: Nós que possuem o mesmo banco de dados.
  - **Teorema CAP**: Teorema que diz que não é possível ter omesmo tempo, garantia de 
 
@@ -15,7 +15,7 @@ Fonte: https://ravendb.net
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTE4OTYzNzAsLTM0OTk3MjA3MSwxNT
+eyJoaXN0b3J5IjpbLTEyOTIwMjc5MzIsLTM0OTk3MjA3MSwxNT
 kzMzIzMTY0LDQwNjE2MDYzMywtNTUxNDU4NzMxLDEyOTgwOTE3
 ODEsNzg0MDQwOTY5LC0xMzkxMjM3MTMyLC0xMTE2NjA0NjgzXX
 0=
