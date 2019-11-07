@@ -1,4 +1,6 @@
 # Exercícios
+> Para fazer os exercícios, crie um banco de dados de exemplo pelo menu lateral esquerdo, na opção Settings -> Create Sample Data. Clique em Create. 
+
 - 1 - Retorne o primeiro nome de todos os empregados.
 - 2 - Retorne o nome das empresas localizadas no Brasil.
 - 3 - Retorne o nome e o endereço das empresas localizadas na cidade de Campinas ou São Paulo.
