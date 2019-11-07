@@ -54,15 +54,18 @@ Definiremos o nó A como líder e os nós B e C como membros, para construir o c
 Nos nós B e C a configuração é bem simples. Acessando pelo navegador endereço correspondente ao IP encontrado anteriormente na porta 8080, podemos fazer a configuração inicial do nó:
 
 Aceite os termos de uso:
+![termos de uso](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_224010_localhost.png)
 
 Selecione o modo não seguro (para fins de demonstração):
+![escolher modo de configuração](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Captura%20de%20tela%20de%202019-11-06%2022-40-44.png)
  
 Digite o IP correspondente no campo indicado:
+![definir ip e porta](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_224324_172.17.0.3.png)
 
-Clique para continuar. 
-
+Clique em Next para continuar. 
 
 Reinicie o servidor:
+![reiniciar servidor]()
 
 Faça o mesmo processo para o outro nó membro.
 
@@ -79,6 +82,9 @@ Com o navegador aberto no endereço do nó A, usaremos o RavenStudio para defini
 
 ## Criando um banco com replicação
 Vamos agora criar um banco com replicação, mantendo os nós replicados em todos os nós.
+
+
+Fonte: https://ravendb.net
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTgxMjA2NjExOSwtMTU4ODk3MTM0NiwxNT
 g1MDE4MTQzLC0xNzcwNjk1MjAyLC0yMDA1MTcxOTM2LC0xMDE1
