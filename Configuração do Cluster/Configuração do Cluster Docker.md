@@ -60,7 +60,7 @@ Selecione o modo não seguro (para fins de demonstração):
  
 Digite o IP correspondente no campo indicado:
 
-Clique para continur. 
+Clique para continuar. 
 
 
 Reinicie o servidor:
@@ -76,6 +76,6 @@ O processo é bem parecido, com o detalhe de selecionar apenas a opção *Create
 ## Criando um banco com replicação
 Vamos agora criar um banco com replicação, mantendo os nós replicados em todos os nós.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTk1MTYwMywtNDc1ODQ1MzM1LDY0Mz
+eyJoaXN0b3J5IjpbMTUyMDc0ODExNCwtNDc1ODQ1MzM1LDY0Mz
 gzNTQ5NiwtMTI2MTM2MzYzMCwzMTQxMDYwMl19
 -->
