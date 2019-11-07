@@ -79,10 +79,16 @@ Clique em Next e ao final, reinicie o nó:
 ![reiniciar servidor](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Captura%20de%20tela%20de%202019-11-06%2022-41-10.png)
 
 ### Definindo a topologia
-Com o navegador aberto no endereço do nó A, usaremos o RavenStudio para definir a topologia do *cluster*.SH
+Com o navegador aberto no endereço do nó A, usaremos o RavenStudio para definir a topologia do *cluster*.
 
->Essa configuração pode mudar com o passar do tempo, pois devido a questões como problemas com a rede ou sobrecarga de recursos, pode haver uma votação e um novo líder ser escolhido.
+No menu lateral, clique na opção Manage Server: 
+![manage server](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_225216_172.17.0.3.png)
 
+No sub-menu, clique na opção Cluster:
+![cluster](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_225252_172.17.0.3.png)
+
+
+>Essa configuração pode mudar com o passar do tempo, pois devido a questões como problemas com a rede ou sobrecarga de recursos pode haver uma votação e um novo líder ser escolhido.
 
 ## Criando um banco com replicação
 Vamos agora criar um banco com replicação, mantendo os nós replicados em todos os nós.
