@@ -136,7 +136,7 @@ Defina o nome do banco e o fator de replicação. No nosso caso, o fator será 3
 
 Agora, basta clicar no banco para acessar os documentos, manipulá-los e fazer consultas, na opção Query.
 
-> É possível criar um banco de dados de exemplo pelo menu lateral esquerdo, na opção Settings -> Create Sample Data. Clique em Create e veja o que acontece!
+> É possível criar um banco de dados de exemplo pelo menu lateral esquerdo, na opção Settings -> Create Sample Data. Clique em Create e explore os dados!
 
 Fonte: https://ravendb.net
 <!--stackedit_data:
