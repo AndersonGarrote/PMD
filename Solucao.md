@@ -1,5 +1,5 @@
 
-
+# Exercícios - Soluções
 - 1 -  `from Employees select FirstName`
 - 2 -  `from Companies where Address.Cselect Name`
 - 3 - `from Companies 
@@ -39,5 +39,5 @@ where count() >= 3
 select Supplier, count()`
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3ODcxNzAzNl19
+eyJoaXN0b3J5IjpbMTQ0ODY0ODIzOV19
 -->
