@@ -13,6 +13,7 @@ Para exemplificar iremos criar uma topologia de 3 nós sendo o nó **A** definid
 
 - Para subirmos as máquinas:
 	> $ sudo docker run --name <nome_do_nó> -d -p 8080:8080 -p 38888:38888 ravendb/ravendb
+	-
 
 ![enter image description here](https://lh3.googleusercontent.com/MgNJC99AoQCBJOjNjTcNeUJhisnHGXXEI4_zZZhRPM97eh55lO5dCfuvAhYbtD-FTMNzzPb51as)
 
@@ -28,7 +29,7 @@ Ao derrubarmos o nó **A** teremos uma nova eleição que será realizada pelo q
 
 - Para vermos quais máquinas estão funcionando:
 	>  $ sudo docker container ls
-- Para derrubarmos um nó:
+- Para derrubarmos um nó, removendo a máquina:
 	>  $ sudo docker stop <nome_do_nó>
 
 ![enter image description here](https://lh3.googleusercontent.com/_Y01ZYw1RYHJqHdWXL8QSF6RBqicHRjaEIVhwjMkcWDwM-03O3RZouAY0HJ2PQy69bfoSLcBtZU)
@@ -37,13 +38,14 @@ Em um outro cenário onde **C** foi rebaixado, ficando como um _Watcher_. Ao der
 
 ![enter image description here](https://lh3.googleusercontent.com/3nzanwWTxJskAwdI-GX9YnNXpGNwEmVgcajBcyU7a8xvMuFGtQf9vlCl3ioocI9tFTKkhVjdaN4)
 
-- Para voltarmos um nó ao funcionamento podemos excluir o nó que foi parado e subi-lo novamente:
-	> $ sudo docker rm Node_B
-	> $ sudo docker run --name <nome_do_nó> -d -p 8080:8080 -p 38888:38888 ravendb/ravendb
+- Para voltarmos um nó ao funcionamento podemos excluir o nó que foi parado:
+	> $ sudo docker rm <nome_do_nó>
+	- Em seguida subi-lo novamente.
+	
 Fonte:[https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overview](https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overview)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjEyODM2MDcsLTExNDgzNTEyMjksMT
+eyJoaXN0b3J5IjpbLTE1MTEzNTk2ODYsLTExNDgzNTEyMjksMT
 M4Nzc3MzM0OSwyMTcwNjQ2NzUsLTE3NDI3MjM0MjddfQ==
 -->
