@@ -29,10 +29,14 @@ Feito isso, podemos subir um container usando o seguinte comando:
 ``
 
 ## Versão Windows
-Depois de baixar o arquivo .zip, extraia o conteúdo e execute o arquivo run.psi via linha de comando no prompt
-## Versão Linux
-Depois de baixar o arquivo .zip, extraia o conteúdo e execute o arquivo run.sh via linha de comando no prompt
+Depois de baixar o arquivo .zip, extraia o conteúdo e execute o arquivo `run.psi` via linha de comando no prompt
 
+## Versão Linux
+Depois de baixar o arquivo .zip, extraia o conteúdo e execute o arquivo `run.sh` via linha de comando no prompt
+
+``
+	./run.sh
+``
 ## Verificando estado do servidor
 
 Podemos conferir o estado usando o cliente do browser, no endereço http://localhost:8080. A seguinte tela deve aparecer:
@@ -46,9 +50,9 @@ Neste ponto, podemos seguir para a **Configuração do Cluster**.
 Fonte: https://ravendb.net
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzODE2MTcxNiwtMzAyMzQ3OTgyLDgyMD
-gwNDY2MywtNjM3MjIwNzYyLC0xMTQwNjAzMjAxLDEyMjc0NzA0
-OTEsMTUwMjAwMzYzOCwxMzEzNTg0ODc1LC0yNzE1OTExMjEsLT
-IwMDY4Nzg3MCw3MjY2ODg3NzIsMzY0OTEzOTAzLDE1ODE3NTc5
-ODIsMTA2MzM1ODg3OSw5MDIxOTIwMzVdfQ==
+eyJoaXN0b3J5IjpbLTE1NzQxNTMwODMsLTMwMjM0Nzk4Miw4Mj
+A4MDQ2NjMsLTYzNzIyMDc2MiwtMTE0MDYwMzIwMSwxMjI3NDcw
+NDkxLDE1MDIwMDM2MzgsMTMxMzU4NDg3NSwtMjcxNTkxMTIxLC
+0yMDA2ODc4NzAsNzI2Njg4NzcyLDM2NDkxMzkwMywxNTgxNzU3
+OTgyLDEwNjMzNTg4NzksOTAyMTkyMDM1XX0=
 -->
