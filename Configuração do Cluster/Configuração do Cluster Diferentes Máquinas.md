@@ -136,9 +136,12 @@ Agora, basta clicar no banco para acessar os documentos, manipulá-los e fazer c
 > É possível criar um banco de dados de exemplo pelo menu lateral esquerdo, na opção Settings -> Create Sample Data. Clique em Create e explore os dados!
 
 Fonte: https://ravendb.net
+
+
+> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjA2NjExOSwtMTU4ODk3MTM0NiwxNT
-g1MDE4MTQzLC0xNzcwNjk1MjAyLC0yMDA1MTcxOTM2LC0xMDE1
-OTQ4Mzk3LC00NzU4NDUzMzUsNjQzODM1NDk2LC0xMjYxMzYzNj
-MwLDMxNDEwNjAyXX0=
+eyJoaXN0b3J5IjpbLTE1Nzc1MzIwMjQsLTgxMjA2NjExOSwtMT
+U4ODk3MTM0NiwxNTg1MDE4MTQzLC0xNzcwNjk1MjAyLC0yMDA1
+MTcxOTM2LC0xMDE1OTQ4Mzk3LC00NzU4NDUzMzUsNjQzODM1ND
+k2LC0xMjYxMzYzNjMwLDMxNDEwNjAyXX0=
 -->
