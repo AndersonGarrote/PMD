@@ -27,9 +27,9 @@ Existem quatro tipos de nó:
 Ao derrubarmos o nó **A** teremos uma nova eleição que será realizada pelo quórum restante de Membros:
 
 - Para vermos quais máquinas estão funcionando:
-	>  $sudo docker container ls
+	>  $ sudo docker container ls
 - Para derrubarmos um nó:
-> 
+	>  $ sudo docker stop <nome_do_nó>
 
 ![enter image description here](https://lh3.googleusercontent.com/_Y01ZYw1RYHJqHdWXL8QSF6RBqicHRjaEIVhwjMkcWDwM-03O3RZouAY0HJ2PQy69bfoSLcBtZU)
 
@@ -41,6 +41,6 @@ Fonte:[https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overvi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODM4Mjc1NywtMTE0ODM1MTIyOSwxMz
-g3NzczMzQ5LDIxNzA2NDY3NSwtMTc0MjcyMzQyN119
+eyJoaXN0b3J5IjpbMjQyMzMwODU1LC0xMTQ4MzUxMjI5LDEzOD
+c3NzMzNDksMjE3MDY0Njc1LC0xNzQyNzIzNDI3XX0=
 -->
