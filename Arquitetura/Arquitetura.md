@@ -12,15 +12,17 @@ Um banco de dados pode ser replicado em vários nós dentro de um *cluster*, dep
 Atualmente o RavenDB não dá suporte para *sharding*, sendo previsto para ser implementado em uma versão futura. 
 
 ## Fontes
+[https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overview](https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overview)
+[https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/rachis/consensus-operations](https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/rachis/consensus-operations)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTA0NTUwMSwtOTQzODU1MzQ0LC0yMD
-UxMjIwOTQwLDE4Mzk4ODAxMjcsLTExNDk5NzQzMjYsMTY5NDA0
-MjEyMCwtMjg0OTI5OTk5LDExNDM3ODM3NjEsLTQ3MjU4MDE4MS
-wtMTg2NzMzNTAyMSwtNjg1MDgwNzE2LDcxMTU3NzUxMiwyODI0
-NTY0MDQsMTU0OTEwOTU2NSwxNDY4NTM1MjkyLDExODQ0MjM2MD
-IsNjAxMDM4NTY2LDQ5MTAzODMzLDYwMTAzODU2NiwtMTU1Mjgw
-NjA2MF19
+eyJoaXN0b3J5IjpbNzM0OTk0MTA5LC05NDM4NTUzNDQsLTIwNT
+EyMjA5NDAsMTgzOTg4MDEyNywtMTE0OTk3NDMyNiwxNjk0MDQy
+MTIwLC0yODQ5Mjk5OTksMTE0Mzc4Mzc2MSwtNDcyNTgwMTgxLC
+0xODY3MzM1MDIxLC02ODUwODA3MTYsNzExNTc3NTEyLDI4MjQ1
+NjQwNCwxNTQ5MTA5NTY1LDE0Njg1MzUyOTIsMTE4NDQyMzYwMi
+w2MDEwMzg1NjYsNDkxMDM4MzMsNjAxMDM4NTY2LC0xNTUyODA2
+MDYwXX0=
 -->
