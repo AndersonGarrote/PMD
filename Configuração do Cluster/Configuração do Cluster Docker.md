@@ -37,7 +37,16 @@ Podemos encontrar o IP e a porta de cada container usando o comando:
  ```
 docker network inspect bridge
 ```
-Buscando a 
+Buscando o endereço de cada nó, similar a seguinte saída:
+```
+"Containers": {
+            {
+                "Name": "nodeA",
+                "IPv4Address": "172.17.0.2/16",
+                "IPv6Address": ""
+            }
+        }
+```
 
 ## Definindo os nós do Cluster
 
@@ -56,6 +65,6 @@ Nos nós B e C a configuração é bem simples. Acessando o endereço correspond
 ## Criando um banco com replicação
 Vamos agora criar um banco com replicação, mantendo os nós replicados em todos os nós.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjEzNjM2MzAsMTIzMzQ1NzQwMCwzMT
+eyJoaXN0b3J5IjpbLTY5ODQzMzA3OCwtMTI2MTM2MzYzMCwzMT
 QxMDYwMl19
 -->
