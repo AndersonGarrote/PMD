@@ -9,13 +9,13 @@
  - **Nó *Member* (Membro)**: Nó capaz de votar em caso de eleição de Líder. Responde a requisições normalmente.
  - **Nó *Watcher* (ObservadorMembro)**: Nó incapaz de votar em caso de eleição de Líder. Responde a requisições normalmente.
  - **Grupo de Banco de Dados**: Nós que possuem o mesmo banco de dados.
- - **Teorema CAP**: Teorema que diz que não é possível ter mesmo tempo,  forma completa, a garantia de *Consistency* (consistência), *Availability* (disponibilidade) e *Partition Tolerance* (tolerância a partição, escalabilidade). 
+ - **Teorema CAP**: Teorema que diz que não é possível ter mesmo tempo,  forma completa, a garantia de *Consistency* (consistência), *Availability* (disponibilidade) e *Partition Tolerance* (tolerância a partição, escalabilidade). .net
+ 
 
-Fonte: https://ravendb.net
-
+Fonte: https://ravendbonsiten it ait(pii
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjE0Mjg1NSwxNzM0MDEyMjg1LC0zND
-k5NzIwNzEsMTU5MzMyMzE2NCw0MDYxNjA2MzMsLTU1MTQ1ODcz
-MSwxMjk4MDkxNzgxLDc4NDA0MDk2OSwtMTM5MTIzNzEzMiwtMT
-ExNjYwNDY4M119
+eyJoaXN0b3J5IjpbLTE4MTM1NjAxMzgsLTQ0MjE0Mjg1NSwxNz
+M0MDEyMjg1LC0zNDk5NzIwNzEsMTU5MzMyMzE2NCw0MDYxNjA2
+MzMsLTU1MTQ1ODczMSwxMjk4MDkxNzgxLDc4NDA0MDk2OSwtMT
+M5MTIzNzEzMiwtMTExNjYwNDY4M119
 -->
