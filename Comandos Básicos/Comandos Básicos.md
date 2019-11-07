@@ -1,5 +1,9 @@
-# Conceitos e comandos e xo básicos
-O RavenDB possí uma linguagem de sonsulta própria chamada [RQL](https://ravendb.net/docs/article-page/4.2/csharp/indexes/querying/what-is-rql), similar à SQL, mas com consultas escritas em uma ordem um pouco diferente.
+# Conceitos e comandos e básicos
+
+Por ser um banco de dados NoSQL, alguns conceitos são diferentes se comparados com um RDBMS comum, mas podemos fazer um paralelo entra a nomenclatura de cada um deles: 
+
+
+O RavenDB possí uma linguagem de consulta própria chamada [RQL](https://ravendb.net/docs/article-page/4.2/csharp/indexes/querying/what-is-rql), similar à SQL, mas com consultas escritas em uma ordem um pouco diferente.
 
 ## Exemplos de consultas 
 
@@ -39,14 +43,14 @@ RQL: `order by <column> as <DataType> <OrderingType>`
 - Exemplo:
 Retornar Produtos com preço por unidade = 15 ordenados pelo nome
 
-RQL: `from Products where PricePerUnit = 15 select Name`
+RQL: `from Products where PricePerUnit = 15 orderby Name as string`
 
-SQL: `select Name from Products where PricePerUnit = 15`
+SQL: `select * from Products where PricePerUnit = 15 orderby Name`
 
 ### Cláusula `group by`
 RQL: `group by <column>`
 
-Exemplo:
+- Exemplo:
 Retornar Fornecedores com mais de 15 produtos
 
 RQL: `from Products group by Supplier where count() > 15`
