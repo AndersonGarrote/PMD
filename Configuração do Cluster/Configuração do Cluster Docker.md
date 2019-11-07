@@ -75,7 +75,6 @@ Ao final, reinicie o nó:
 
 ### Definindo a topologia
 Com o navegador aberto no endereço do nó A, usaremos o RavenStudio para definir a topologia do *cluster*.
-a 
 
 >Essa configuração pode mudar com o passar do tempo, pois devido a questões como problemas com a rede ou sobrecarga de recursos, pode haver uma votação e um novo líder ser escolhido.
 
@@ -83,7 +82,8 @@ a
 ## Criando um banco com replicação
 Vamos agora criar um banco com replicação, mantendo os nós replicados em todos os nós.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NTAxODE0MywtMTc3MDY5NTIwMiwtMj
-AwNTE3MTkzNiwtMTAxNTk0ODM5NywtNDc1ODQ1MzM1LDY0Mzgz
-NTQ5NiwtMTI2MTM2MzYzMCwzMTQxMDYwMl19
+eyJoaXN0b3J5IjpbNjg0MDMzODQwLDE1ODUwMTgxNDMsLTE3Nz
+A2OTUyMDIsLTIwMDUxNzE5MzYsLTEwMTU5NDgzOTcsLTQ3NTg0
+NTMzNSw2NDM4MzU0OTYsLTEyNjEzNjM2MzAsMzE0MTA2MDJdfQ
+==
 -->
