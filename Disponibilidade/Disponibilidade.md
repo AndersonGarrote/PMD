@@ -12,7 +12,7 @@ A seguir teremos a demonstração de uma topologia com possíveis falhas junto c
 Para exemplificar iremos criar uma topologia de 3 nós sendo o nó **A** definido como *Master* e os nós **B** e **C** como *Members*.
 
 - Para subirmos as máquinas:
-	> $ sudo docker run -d -p 8080:8080 -p 38888:38888 ravendb/ravendb
+	> $ sudo docker run --name <nome_do_nó> -d -p 8080:8080 -p 38888:38888 ravendb/ravendb
 
 ![enter image description here](https://lh3.googleusercontent.com/MgNJC99AoQCBJOjNjTcNeUJhisnHGXXEI4_zZZhRPM97eh55lO5dCfuvAhYbtD-FTMNzzPb51as)
 
@@ -37,12 +37,13 @@ Em um outro cenário onde **C** foi rebaixado, ficando como um _Watcher_. Ao der
 
 ![enter image description here](https://lh3.googleusercontent.com/3nzanwWTxJskAwdI-GX9YnNXpGNwEmVgcajBcyU7a8xvMuFGtQf9vlCl3ioocI9tFTKkhVjdaN4)
 
-- Para voltarmos um nó ao funcionamento podemos excluir o nó
+- Para voltarmos um nó ao funcionamento podemos excluir o nó que foi parado e subi-lo novamente:
+	> sudo docker rm Node_B
 
 Fonte:[https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overview](https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overview)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM2NDU0MzcsLTExNDgzNTEyMjksMT
-M4Nzc3MzM0OSwyMTcwNjQ2NzUsLTE3NDI3MjM0MjddfQ==
+eyJoaXN0b3J5IjpbNDIxOTA0Mzc1LC0xMTQ4MzUxMjI5LDEzOD
+c3NzMzNDksMjE3MDY0Njc1LC0xNzQyNzIzNDI3XX0=
 -->
