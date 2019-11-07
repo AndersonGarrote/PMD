@@ -52,7 +52,7 @@ Buscando o endereço de cada nó, similar a seguinte saída:
 Definiremos o nó A como líder e os nós B e C como membros, para construir o cluster.
 
 ### Membros
-Nos nós B e C a configuração é bem simples. Acessando pelo navegador o endereço correspondente ao IP encontrado anteriormente na porta 8080, podemos fazer a configuração inicial do nó:
+Nos nós B e C a configuração é bem simples. Acessando pelo negador endereço correspondente ao IP encontrado anteriormente na porta 8080, podemos fazer a configuração inicial do nó:
 
 Aceite os termos de uso.
 
@@ -60,7 +60,9 @@ Selecione o modo não seguro (para fins de demonstração):
  
 Digite o IP correspondente no campo indicado:
 
-Clique para continua. 
+Clique  continua. 
+
+r:
 
 Reinicie o servidor:
 
@@ -74,6 +76,6 @@ O processo eh
 ## Criando um banco com replicação
 Vamos agora criar um banco com replicação, mantendo os nós replicados em todos os nós.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjMxMTM4ODcsNjQzODM1NDk2LC0xMj
-YxMzYzNjMwLDMxNDEwNjAyXX0=
+eyJoaXN0b3J5IjpbLTQ3NTg0NTMzNSwtMjAyMzExMzg4Nyw2ND
+M4MzU0OTYsLTEyNjEzNjM2MzAsMzE0MTA2MDJdfQ==
 -->
