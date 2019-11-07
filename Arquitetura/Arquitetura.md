@@ -11,14 +11,14 @@ Um banco de dados pode ser replicado em vários nós dentro de um *cluster*, dep
  Na camada de *clusters* é feita a replicação entre dois grupos de bancos de dados (Denominada de Replicação Externa) de forma semelhante a replicação tradicional. 
 Atualmente o RavenDB não dá suporte para *sharding*, sendo previsto para ser implementado em uma versão futura. 
 
-## Fontes
+Fontes:
 [https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overview](https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overview)
 [https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/rachis/consensus-operations](https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/rachis/consensus-operations)
 [https://ravendb.net/learn/inside-ravendb-book/reader/4.0/6-ravendb-clusters](https://ravendb.net/learn/inside-ravendb-book/reader/4.0/6-ravendb-clusters)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzY4MDU4MCw3MzQ5OTQxMDksLTk0Mz
+eyJoaXN0b3J5IjpbMTMwOTM5NjQ1Miw3MzQ5OTQxMDksLTk0Mz
 g1NTM0NCwtMjA1MTIyMDk0MCwxODM5ODgwMTI3LC0xMTQ5OTc0
 MzI2LDE2OTQwNDIxMjAsLTI4NDkyOTk5OSwxMTQzNzgzNzYxLC
 00NzI1ODAxODEsLTE4NjczMzUwMjEsLTY4NTA4MDcxNiw3MTE1
