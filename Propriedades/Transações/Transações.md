@@ -20,7 +20,9 @@ Porém quando o banco de dados possui índices, então as operações de buscas 
  - *Basically Available* (Disponível de forma básica): buscas por índices sempre estão disponíveis, mas podem estar desatualizadas.
  - *Soft State* (Estado simples): O estado do sistema pode mudar com o tempo dependendo da demora da indexação.
  - Eventual Consistency (Consistência Futura): o banco de dados será consistênte quando a indexação acabar e não receber novos documentos.
+
+Fonte: https://ravendb.net
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODMwMTUwNiwtMTA2MjE2NTAyMiwzNj
-UzODcxOTQsLTI2MDUyMTc3OF19
+eyJoaXN0b3J5IjpbLTQ3MjExMjA1NiwtMzQ4MzAxNTA2LC0xMD
+YyMTY1MDIyLDM2NTM4NzE5NCwtMjYwNTIxNzc4XX0=
 -->
