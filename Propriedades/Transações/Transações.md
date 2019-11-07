@@ -22,8 +22,9 @@ Porém quando o banco de dados possui índices, então as operações de buscas 
  - Eventual Consistency (Consistência Futura): o banco de dados será consistênte quando a indexação acabar e não receber novos documentos.
 
 Fonte: [https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/cluster-transactions](https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/cluster-transactions)
+[https://ravendb.net/docs/article-page/4.1/csharp/client-api/faq/transaction-support](https://ravendb.net/docs/article-page/4.1/csharp/client-api/faq/transaction-support)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODA1NzIwOTEsLTQ3MjExMjA1NiwtMz
-Q4MzAxNTA2LC0xMDYyMTY1MDIyLDM2NTM4NzE5NCwtMjYwNTIx
-Nzc4XX0=
+eyJoaXN0b3J5IjpbMjA1ODAwNTY5MCwtNDcyMTEyMDU2LC0zND
+gzMDE1MDYsLTEwNjIxNjUwMjIsMzY1Mzg3MTk0LC0yNjA1MjE3
+NzhdfQ==
 -->
