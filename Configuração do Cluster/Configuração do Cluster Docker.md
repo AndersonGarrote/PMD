@@ -72,7 +72,8 @@ O processo é bem parecido, com o detalhe de selecionar apenas a opção *Create
 
 Ao final, reinicie o nó:
 
-
+### Definindo a topologia
+Com o navegador aberto na 
 
 >Essa configuração pode mudar com o passar do tempo, pois devido a questões como problemas com a rede ou sobrecarga de recursos, pode haver uma votação e um novo líder ser escolhido.
 
@@ -80,7 +81,7 @@ Ao final, reinicie o nó:
 ## Criando um banco com replicação
 Vamos agora criar um banco com replicação, mantendo os nós replicados em todos os nós.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDUxNzE5MzYsLTEwMTU5NDgzOTcsLT
-Q3NTg0NTMzNSw2NDM4MzU0OTYsLTEyNjEzNjM2MzAsMzE0MTA2
-MDJdfQ==
+eyJoaXN0b3J5IjpbMTQ5NzYzNzk3NSwtMjAwNTE3MTkzNiwtMT
+AxNTk0ODM5NywtNDc1ODQ1MzM1LDY0MzgzNTQ5NiwtMTI2MTM2
+MzYzMCwzMTQxMDYwMl19
 -->
