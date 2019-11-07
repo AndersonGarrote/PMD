@@ -21,8 +21,9 @@ Porém quando o banco de dados possui índices, então as operações de buscas 
  - *Soft State* (Estado simples): O estado do sistema pode mudar com o tempo dependendo da demora da indexação.
  - Eventual Consistency (Consistência Futura): o banco de dados será consistênte quando a indexação acabar e não receber novos documentos.
 
-Fonte: https://ravendb.net
+Fonte: [https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/cluster-transactions](https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/cluster-transactions)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjExMjA1NiwtMzQ4MzAxNTA2LC0xMD
-YyMTY1MDIyLDM2NTM4NzE5NCwtMjYwNTIxNzc4XX0=
+eyJoaXN0b3J5IjpbLTIwODA1NzIwOTEsLTQ3MjExMjA1NiwtMz
+Q4MzAxNTA2LC0xMDYyMTY1MDIyLDM2NTM4NzE5NCwtMjYwNTIx
+Nzc4XX0=
 -->
