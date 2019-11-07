@@ -12,8 +12,8 @@ A seguir teremos a demonstração de uma topologia com possíveis falhas junto c
 Para exemplificar iremos criar uma topologia de 3 nós sendo o nó **A** definido como *Master* e os nós **B** e **C** como *Members*.
 
 - Para subirmos as máquinas:
-	> $ sudo docker run --name <nome_do_nó> -d -p 8080:8080 -p 38888:38888 ravendb/ravendb
-	-
+	> $ sudo docker run --name <nome_do_nó> -d -p 8080:8081 -p 38888:38888 ravendb/ravendb
+	- Onde o primeiro parâmetro de porta (8080) refere-se a porta da máquina física e o segundo (8081) à porta do serviço _Docker_. Para criarmos várias máquinas basta variar o seu nome e porta de serviço.
 
 ![enter image description here](https://lh3.googleusercontent.com/MgNJC99AoQCBJOjNjTcNeUJhisnHGXXEI4_zZZhRPM97eh55lO5dCfuvAhYbtD-FTMNzzPb51as)
 
@@ -46,6 +46,6 @@ Fonte:[https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overvi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTEzNTk2ODYsLTExNDgzNTEyMjksMT
-M4Nzc3MzM0OSwyMTcwNjQ2NzUsLTE3NDI3MjM0MjddfQ==
+eyJoaXN0b3J5IjpbLTc3NDM5MDE5NCwtMTE0ODM1MTIyOSwxMz
+g3NzczMzQ5LDIxNzA2NDY3NSwtMTc0MjcyMzQyN119
 -->
