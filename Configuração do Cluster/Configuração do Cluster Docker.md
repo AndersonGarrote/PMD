@@ -14,7 +14,7 @@ Onde cada parâmetro significa:
 -  `--name "nodeA"`: nome (ou apelido) dado ao container para conseguirmos acessar em outros comandos.
 - `-d`: container em modo *detatched*, para que possamos usar o mesmo terminal para os próximos comandos.
 - `-p 8080:8080`: mapeamento das portas IP da máquina hospedeira e do container, no formato \<portaHospedeira>:\<portaContainer>.
-- `-p 38888:38888`: mapeamento das portas IP da máquina hospedeira e do container
+- `-p 38888:38888`: mapeamento das portas TCP da máquina hospedeira e do container.
 - `ravendb/ravendb`: imagem do RavenDB a ser usada no container.
 
 Mais informações na documentação do comando [run](https://docs.docker.com/engine/reference/run). 
@@ -25,16 +25,18 @@ Prosseguiremos com a configuração, acessando o endereço:
 Criaremos agora mais dois containers com os seguintes comandos no terminal:
  
  ``
-docker run --name "nodeB" -d -p 8080:8081  ravendb/ravendb
+docker run --name "nodeB" -d -p 8081:8080 ravendb/ravendb
+ ``
+ 
+ ``
+docker run --name "nodeC" -d -p 8082:8080 ravendb/ravendb
  ``
 
-
-
 ## Definindo os nós do Cluster
-
+Defin
 
 
 ## Criando um banco com replicação
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzgwNzA0XX0=
+eyJoaXN0b3J5IjpbLTE1NDI3OTE1NDhdfQ==
 -->
