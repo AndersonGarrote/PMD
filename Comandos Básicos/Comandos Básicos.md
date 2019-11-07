@@ -1,5 +1,5 @@
-# Comandos e xo básicos
-
+# Conceitos e comandos básicos
+Como 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY2NDY4ODldfQ==
+eyJoaXN0b3J5IjpbLTEzMjA4NTQxNV19
 -->
