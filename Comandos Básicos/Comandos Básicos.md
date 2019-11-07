@@ -51,7 +51,7 @@ Retornar Produtos com preço por unidade = 15 ordenados pelas unidades em pedido
 
 RQL: `from Products where PricePerUnit = 15 order by UnitsOnOrder as long `
 
-SQL: `select * from Products where PricePerUnit = 15 orderby UnitsOnOrder`
+SQL: `select * from Products where PricePerUnit = 15 order by UnitsOnOrder`
 
 ### Cláusula `group by`
 RQL: `group by <column>`
@@ -67,6 +67,7 @@ SQL: `select * from Products where count(Supplier) = 15 group by Supplier`
 
 Saiba mais sobre RQL em: https://ravendb.net/docs/article-page/4.2/csharp/indexes/querying/what-is-rql
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTg1MDEzOSw3ODc0MjI3MDMsMTA2MT
-c1MDEwMSwtMjA1NzkwNTMxOSwtNjc3NzA2NDQ3XX0=
+eyJoaXN0b3J5IjpbLTE0MzIzMTM5NTgsLTQzOTg1MDEzOSw3OD
+c0MjI3MDMsMTA2MTc1MDEwMSwtMjA1NzkwNTMxOSwtNjc3NzA2
+NDQ3XX0=
 -->
