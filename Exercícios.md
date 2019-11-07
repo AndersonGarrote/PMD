@@ -1,15 +1,16 @@
 
 1 - Retorne o primeiro nome de todos os empregados
 	R.: `from Employees select FirstName`
-2- Retorne o nome das empresas localizadas no Brasil
-	R.: `from Companies where Address.Country = "Brazil" select Name`
-2- Retorne o nome e o endereço das empresas localizadas na cidade de Campinas ou São Paulo
+2- Retorne o nome das empresas localizadas n ail
+	R.: `from Companies where Address.Cselect Name`
+2- Retorne e de  nmeo eereço das empresas localizadas no Bras
+ila cidade de Campinas ou São Paulo
 	R.: `from Companies 
 where (Address.City = "Campinas" or Address.City = "Sao Paulo")
-select Name, Address `
+ountry = "Brazil" select Name, Address `
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDIzNTI1MSwxODI5MzU4ODEzLC0xMz
-M1NjAwNjEsLTEwNDc1NDkxNDgsMTU2MjY2MTY2MSw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbLTE5MTM3MDkwNjYsLTcxMDIzNTI1MSwxOD
+I5MzU4ODEzLC0xMzM1NjAwNjEsLTEwNDc1NDkxNDgsMTU2MjY2
+MTY2MSw3MzA5OTgxMTZdfQ==
 -->
