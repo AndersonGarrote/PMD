@@ -10,11 +10,11 @@ SQL: `select * from Employees`
 Cláusula `where`
 RQL: `where <operation>`
 Exemplo:
-RQL: `from Employees where FirstName = "Andrew"`
-SQL: `select * from Employees where `
+RQL: `from Products where PricePerUnit = 15`
+SQL: `select * from Products where PricePerUnit = 15`
 
 Saiba mais sobre RQL em: https://ravendb.net/docs/article-page/4.2/csharp/indexes/querying/what-is-rql
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTY1ODY5OSwtMjA1NzkwNTMxOSwtNj
+eyJoaXN0b3J5IjpbMTA4MTE3ODc0MiwtMjA1NzkwNTMxOSwtNj
 c3NzA2NDQ3XX0=
 -->
