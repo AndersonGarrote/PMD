@@ -14,15 +14,15 @@ Atualmente o RavenDB não dá suporte para *sharding*, sendo previsto para ser i
 ## Fontes
 [https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overview](https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overview)
 [https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/rachis/consensus-operations](https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/rachis/consensus-operations)
-
+[https://ravendb.net/learn/inside-ravendb-book/reader/4.0/6-ravendb-clusters](https://ravendb.net/learn/inside-ravendb-book/reader/4.0/6-ravendb-clusters)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0OTk0MTA5LC05NDM4NTUzNDQsLTIwNT
-EyMjA5NDAsMTgzOTg4MDEyNywtMTE0OTk3NDMyNiwxNjk0MDQy
-MTIwLC0yODQ5Mjk5OTksMTE0Mzc4Mzc2MSwtNDcyNTgwMTgxLC
-0xODY3MzM1MDIxLC02ODUwODA3MTYsNzExNTc3NTEyLDI4MjQ1
-NjQwNCwxNTQ5MTA5NTY1LDE0Njg1MzUyOTIsMTE4NDQyMzYwMi
-w2MDEwMzg1NjYsNDkxMDM4MzMsNjAxMDM4NTY2LC0xNTUyODA2
-MDYwXX0=
+eyJoaXN0b3J5IjpbMTI0NzY4MDU4MCw3MzQ5OTQxMDksLTk0Mz
+g1NTM0NCwtMjA1MTIyMDk0MCwxODM5ODgwMTI3LC0xMTQ5OTc0
+MzI2LDE2OTQwNDIxMjAsLTI4NDkyOTk5OSwxMTQzNzgzNzYxLC
+00NzI1ODAxODEsLTE4NjczMzUwMjEsLTY4NTA4MDcxNiw3MTE1
+Nzc1MTIsMjgyNDU2NDA0LDE1NDkxMDk1NjUsMTQ2ODUzNTI5Mi
+wxMTg0NDIzNjAyLDYwMTAzODU2Niw0OTEwMzgzMyw2MDEwMzg1
+NjZdfQ==
 -->
