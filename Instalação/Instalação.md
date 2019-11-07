@@ -1,4 +1,5 @@
 ## Instalando o RavenDB
+>Observação: Este tutorial foi contruído baseado na versão estável 4.2.4 do RavenDB
 
 O banco de dados de documentos NoSQL **RavenDB** pode ser baixado na seção de downloads do site: [ravendb.net/download](https://ravendb.net/download).
 
@@ -27,8 +28,9 @@ Feito isso, podemos subir um container usando o seguinte comando:
 	docker run -d -p 8080:8080 -p 38888:38888  ravendb/ravendb
 ``
 
-## Usando 
+## Versão Windows
 
+## Versão Linux
 
 ## Verificando estado do servidor
 
@@ -43,9 +45,9 @@ Neste ponto, podemos seguir para a **Configuração do Cluster**.
 Fonte: https://ravendb.net
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMjM0Nzk4Miw4MjA4MDQ2NjMsLTYzNz
-IyMDc2MiwtMTE0MDYwMzIwMSwxMjI3NDcwNDkxLDE1MDIwMDM2
-MzgsMTMxMzU4NDg3NSwtMjcxNTkxMTIxLC0yMDA2ODc4NzAsNz
-I2Njg4NzcyLDM2NDkxMzkwMywxNTgxNzU3OTgyLDEwNjMzNTg4
-NzksOTAyMTkyMDM1XX0=
+eyJoaXN0b3J5IjpbLTU2ODI5MTk1MSwtMzAyMzQ3OTgyLDgyMD
+gwNDY2MywtNjM3MjIwNzYyLC0xMTQwNjAzMjAxLDEyMjc0NzA0
+OTEsMTUwMjAwMzYzOCwxMzEzNTg0ODc1LC0yNzE1OTExMjEsLT
+IwMDY4Nzg3MCw3MjY2ODg3NzIsMzY0OTEzOTAzLDE1ODE3NTc5
+ODIsMTA2MzM1ODg3OSw5MDIxOTIwMzVdfQ==
 -->
