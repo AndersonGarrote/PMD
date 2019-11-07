@@ -25,8 +25,15 @@ Exemplo:
 RQL: `from Products where PricePerUnit = 15 select Name`
 SQL: `select Name from Products where PricePerUnit = 15`
 
+Cláusula `group by`
+RQL: `group by <column>`
+Exemplo:
+RQL: `from Products group by Supplier where count() > 15`
+SQL: `select Name from Products where PricePerUnit = 15`
+
+
 Saiba mais sobre RQL em: https://ravendb.net/docs/article-page/4.2/csharp/indexes/querying/what-is-rql
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ3Nzg3MjE2LC0yMDU3OTA1MzE5LC02Nz
-c3MDY0NDddfQ==
+eyJoaXN0b3J5IjpbMTUxNzQwMjQ0NiwtMjA1NzkwNTMxOSwtNj
+c3NzA2NDQ3XX0=
 -->
