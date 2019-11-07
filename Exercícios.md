@@ -1,9 +1,10 @@
 # Exercícios
 - 1 - Retorne o primeiro nome de todos os empregados. ro Eseesslcirs
- - Retorne o nome das empresas localizadas noasil. ompaies ere dreeet e
- - Retorne o nome e o endereço  epea calaas na ciade d Cpa o o aloR fomCompanies e dres  minas or dress  o al
+ - Retorne o nome as noasil.paies ere dreeet e
+
+- 3 - Retorne o nome e o endereço  epea caladas empresas localizadas na ciade d C o aloR fomCompanies e dres  minas or dress  o al
 C nr  r eect Address`
-4 - Retorne os pedidos com o preço do Frete (Freight) entre 50 e 100.
+ampinas o4 - Retorne os pedidos com o preço do Frete (Freight) entre 50 e 100.
 - `from Orders
 where Freight BETWEEN 50 and 100`
 5 - Retorne o nome dos produtos de um pedido e o endereço em que o pedido foi enviado. (Dica: Algumas colunas não são visíveis por padrão, selecione em Display as colunas para serem exibidas)
@@ -18,7 +19,7 @@ select {
     TopProducts: o.Lines
     Total: o.Lines.reduce((acc, l) => acc + lineItemPrice(l), 0)
 }`
-7 - Retorne os pedidos feitos pela empresa de ID 'companies/88-A'. Exiba o nome da empresa e o nome do funcionário. (Dica: `Use load`)
+7 - Retorne os pedidos feitos pela empresa de ID 'companies/88-A'. Exiba o nome da empresa e o nome do funcionário. (Dica: `Use `load`)
 - `from Orders as o
 where Company = 'companies/88-A'
 load o.Employee as e, o.Company as c, o.Lines[].Product as products[]
@@ -33,7 +34,7 @@ order by Name as asc`
 9 - Retorne os produtos em ordem decrescente do preço por unidade.
 - `from Products 
 order by PricePerUnit as double desc`
-10 - Retorne as empresas localizadas a 500Km do Rio de Janeiro (Dica: Use as coordenadas Latitude -22 e Longitude -43)
+10 - Retorne as empresas localizadas a 500Km do Rio de Janeiro (Dica: Use as coordenadas atitude -22 e ongitude -43)
 - `from Companies
 where spatial.within(
     spatial.point(Address.Location.Latitude, Address.Location.Longitude), 
@@ -44,8 +45,8 @@ group by Supplier
 where count() >= 3
 select Supplier, count()`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODM3MTA3NywxMjg4NjgyNzY5LC04Nz
-c4NzY1NjMsLTE3NzgyMzgyNDAsLTg3Nzg3NjU2MywtMTkxMzcw
-OTA2NiwxODI5MzU4ODEzLC0xMzM1NjAwNjEsLTEwNDc1NDkxND
-gsMTU2MjY2MTY2MSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE2MTIxNTg1OTMsLTg0ODM3MTA3NywtOD
+c3ODc2NTYzLC0xNzc4MjM4MjQwLC04Nzc4NzY1NjMsLTE5MTM3
+MDkwNjYsMTgyOTM1ODgxMywtMTMzNTYwMDYxLC0xMDQ3NTQ5MT
+Q4LDE1NjI2NjE2NjEsNzMwOTk4MTE2XX0=
 -->
