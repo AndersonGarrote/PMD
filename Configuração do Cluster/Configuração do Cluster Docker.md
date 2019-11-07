@@ -5,7 +5,7 @@ Para essa demonstração usaremos a versão gratuita do RavenDB que permite cria
 Usando o Docker, criaremos um container com o servidor do RavenDB, com o seguinte comando no terminal:
  
  ``
-docker run --name "nodeA" -d -p 8080:8080  ravendb/ravendb
+docker run --name "nodeA" -d -p 8080:8080 -p 38888:38888 ravendb/ravendb
  ``
 
 Onde cada parâmetro significa:
@@ -13,7 +13,8 @@ Onde cada parâmetro significa:
 - `run`: comando run do Docker que cria um container isolado com processo.
 -  `--name "nodeA"`: nome (ou apelido) dado ao container para conseguirmos acessar em outros comandos.
 - `-d`: container em modo *detatched*, para que possamos usar o mesmo terminal para os próximos comandos.
-- `-p 8080:8080`: mapeamento das portas TCP da máquina hospedeira e do container, no formato \<portaHospedeira>:\<portaContainer>.
+- `-p 8080:8080`: mapeamento das portas IP da máquina hospedeira e do container, no formato \<portaHospedeira>:\<portaContainer>.
+- `-p 38888:38888`: mapeamento das portas IP da máquina hospedeira e do container
 - `ravendb/ravendb`: imagem do RavenDB a ser usada no container.
 
 Mais informações na documentação do comando [run](https://docs.docker.com/engine/reference/run). 
@@ -35,5 +36,5 @@ docker run --name "nodeB" -d -p 8080:8081  ravendb/ravendb
 
 ## Criando um banco com replicação
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM5NDcwNzRdfQ==
+eyJoaXN0b3J5IjpbMTg5MzgwNzA0XX0=
 -->
