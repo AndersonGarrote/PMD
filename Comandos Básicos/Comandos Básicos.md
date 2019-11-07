@@ -5,6 +5,9 @@ Por ser um banco de dados NoSQL, alguns conceitos são diferentes se comparados 
 |--|--|
 | collection | table  |
 | document | row |
+| field | column |
+| index | index |
+|  |  |
 
 O RavenDB possí uma linguagem de consulta própria chamada [RQL](https://ravendb.net/docs/article-page/4.2/csharp/indexes/querying/what-is-rql), similar à SQL, mas com consultas escritas em uma ordem um pouco diferente.
 
@@ -64,6 +67,6 @@ SQL: `select * from Products where count(Supplier) = 15 group by Supplier`
 
 Saiba mais sobre RQL em: https://ravendb.net/docs/article-page/4.2/csharp/indexes/querying/what-is-rql
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODM1MTU0MzMsNzg3NDIyNzAzLDEwNj
-E3NTAxMDEsLTIwNTc5MDUzMTksLTY3NzcwNjQ0N119
+eyJoaXN0b3J5IjpbLTgwNTY0NjIyNyw3ODc0MjI3MDMsMTA2MT
+c1MDEwMSwtMjA1NzkwNTMxOSwtNjc3NzA2NDQ3XX0=
 -->
