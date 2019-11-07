@@ -79,20 +79,64 @@ Clique em Next e ao final, reinicie o nó:
 ![reiniciar servidor](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Captura%20de%20tela%20de%202019-11-06%2022-41-10.png)
 
 ### Definindo a topologia
-Com o navegador aberto no endereço do nó A, usaremos o RavenStudio para definir a topologia do *cluster*.
+Com o navegador aberto no endereço do nó Líder, no nosso caso o nó A, usaremos o RavenStudio para definir a topologia do *cluster*:
+![tela inicial](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Captura%20de%20tela%20de%202019-11-06%2022-45-30.png)
 
-No menu lateral, clique na opção Manage Server: 
+> Antes de começar, certifique-se que você possuí uma licença gratuíta, que permite a criação de um cluster com até 3 nós. Você pode obtê-la em: https://ravendb.net/license/request?&build=42020
+
+
+No menu lateral, clique na opção About: 
+![about](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_225216_172.17.0.3.png)
+
+Nessa tela, clique em Register License:
+![configurar licença](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Captura%20de%20tela%20de%202019-11-06%2022-45-40.png)
+
+Insira a licença obtida anteriormente ou clique em "*Obtain a new license*". Depois, clique em "Submit":
+![submit](https://github.com/AndersonGarrote/PMD/blob/master/Configura%C3%A7%C3%A3o%20do%20Cluster/Captura%20de%20tela%20de%202019-11-07%2008-37-00.png)
+
+Agora seguiremos com a configuração.
+
+No menu lateral, clique na opção "Manage Server": 
 ![manage server](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_225216_172.17.0.3.png)
 
-No sub-menu, clique na opção Cluster:
+No sub-menu, clique na opção "Cluster":
 ![cluster](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_225252_172.17.0.3.png)
 
+Vamos agora definir o número máximo de núcleos no nó.
 
->Essa configuração pode mudar com o passar do tempo, pois devido a questões como problemas com a rede ou sobrecarga de recursos pode haver uma votação e um novo líder ser escolhido.
+> Na licença grátis, é permitido no máximo o uso de 3 *cores*  (núcleos) ao todo no cluster. Por isso, é necessário limitar o uso de núcleos por nó. Caso apareça uma mensagem aviando que o número máximo de *cores* foi atingido, retorne para esta etapa antes de continuar.
+
+No nó A clique em "*Operations*":
+
+Clique em "*Assign Cores*"
+
+Clique em "*Add node to Cluster*"
+
+Insira o IP e porta e a Tag do nó Membro, por exemplo B. Tome cuidado para não esquecer de desmarcar a opção "*Use Available Cores*" e definir o número máximo de *cores* para 1:
+
+Clique em "*Test Connection*"
+
+Se a conexão foi realizada, clique em "*Add*". Se não funcionar, revise os passos anteriores.
+
+O Studio deve exibir a seguinte tela com a topologia do cluster:
+
+Repita o processo para o outro membro.
+
+> Essa configuração pode mudar com o passar do tempo, pois devido a questões como problemas com a rede ou sobrecarga de recursos pode haver uma votação e um novo líder ser escolhido.
 
 ## Criando um banco com replicação
 Vamos agora criar um banco com replicação, mantendo os nós replicados em todos os nós.
 
+No menu lateral, clique na opção "Databases": 
+![manage server](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_225216_172.17.0.3.png)
+
+Clique em "*Add database*":
+
+Defina o nome do banco e o fator de replicação. No nosso caso, o fator será 3 para que cada nó tenha uma réplica do banco:
+
+Agora, basta clicar no banco para acessar os documentos, manipulá-los e fazer consultas, na opção Query.
+
+> É possível criar um banco de dados de exemplo pelo menu lateral esquerdo, na opção Settings -> Create Sample Data. Clique em Create e veja o que acontece!
 
 Fonte: https://ravendb.net
 <!--stackedit_data:
