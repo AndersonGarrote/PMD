@@ -51,10 +51,9 @@ Buscando o endereço de cada nó, similar a seguinte saída:
 ## Definindo os nós do Cluster
 
 Definiremos o nó A como líder e os nós B e C como membros, para construir o cluster.
-sudo docker network inspect bridge
 
 ### Membros
-Nos nós B e C a configuração é bem simples. Acessando o endereço correspondente pelo navegador 
+Nos nós B e C a configuração é bem simples. Acessando o endereço correspondente ao IP encontrado anterioemente pelo navegador 
 
 
 
@@ -65,6 +64,6 @@ Nos nós B e C a configuração é bem simples. Acessando o endereço correspond
 ## Criando um banco com replicação
 Vamos agora criar um banco com replicação, mantendo os nós replicados em todos os nós.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODQzMzA3OCwtMTI2MTM2MzYzMCwzMT
+eyJoaXN0b3J5IjpbMTg0MzYxMDIzMCwtMTI2MTM2MzYzMCwzMT
 QxMDYwMl19
 -->
