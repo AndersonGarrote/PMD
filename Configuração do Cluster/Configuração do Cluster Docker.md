@@ -6,7 +6,7 @@ Usando o Docker, criaremos um container com o servidor do RavenDB, com o seguint
  
  ```
 docker run --name "nodeA" -d -p 8080:8080 -p 38888:38888 ravendb/ravendb
- ``
+ ```
 
 Onde cada parâmetro significa:
 - `docker`: software container onde criaremos nossos servidores.
@@ -44,7 +44,7 @@ docker network inspect bridge
 Definiremos o nó A como líder e os nós B e C como membros, para construir o cluster.
 
 ### Membros
-Nos nós B e C a configuração é bem simples. Acessando o endereço correspondente
+Nos nós B e C a configuração é bem simples. Acessando o endereço correspondente pelo navegador 
 
 
 
@@ -55,5 +55,5 @@ Nos nós B e C a configuração é bem simples. Acessando o endereço correspond
 ## Criando um banco com replicação
 Vamos agora criar um banco com replicação, mantendo os nós replicados em todos os nós.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDc4NjgyMzksMzE0MTA2MDJdfQ==
+eyJoaXN0b3J5IjpbODM4MDgyODY0LDMxNDEwNjAyXX0=
 -->
