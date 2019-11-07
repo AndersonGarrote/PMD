@@ -35,6 +35,7 @@ docker run --name "nodeC" -d -p 8082:8080 ravendb/ravendb
 ## Encontrando o IP e porta de cada instância
 Podemos encontrar o IP e a porta de cada container usando o comando:
  ```
+ sudo docker network inspect bridge
 ```
 Buscando o endereço de cada nó, similar a seguinte saída:
 ```
@@ -81,7 +82,7 @@ Com o navegador aberto na
 ## Criando um banco com replicação
 Vamos agora criar um banco com replicação, mantendo os nós replicados em todos os nós.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NzYzNzk3NSwtMjAwNTE3MTkzNiwtMT
+eyJoaXN0b3J5IjpbLTgxNDExNzc4MSwtMjAwNTE3MTkzNiwtMT
 AxNTk0ODM5NywtNDc1ODQ1MzM1LDY0MzgzNTQ5NiwtMTI2MTM2
 MzYzMCwzMTQxMDYwMl19
 -->
