@@ -4,6 +4,8 @@ O banco de dados de documentos NoSQL **RavenDB** pode ser baixado na seção de 
 
 ![página de downloads](https://github.com/AndersonGarrote/PMD/blob/master/Instala%C3%A7%C3%A3o/downloads_page.png?raw=true)
 
+
+
 ## Usando o Docker
 Para fins de demonstração deste tutorial, utilizaremos a versão para Docker, por ser multiplataforma e permitir realizar os testes de instâncias de nós no cluster usando containers.
 
@@ -33,9 +35,13 @@ Podemos conferir o estado usando o cliente do browser, no endereço http://local
 
 Neste ponto, podemos seguir para a **Configuração do Cluster**.
 
+
+Fonte: https://ravendb.net
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNzIyMDc2MiwtMTE0MDYwMzIwMSwxMj
-I3NDcwNDkxLDE1MDIwMDM2MzgsMTMxMzU4NDg3NSwtMjcxNTkx
-MTIxLC0yMDA2ODc4NzAsNzI2Njg4NzcyLDM2NDkxMzkwMywxNT
-gxNzU3OTgyLDEwNjMzNTg4NzksOTAyMTkyMDM1XX0=
+eyJoaXN0b3J5IjpbLTEwNzYwNDc1OSwtNjM3MjIwNzYyLC0xMT
+QwNjAzMjAxLDEyMjc0NzA0OTEsMTUwMjAwMzYzOCwxMzEzNTg0
+ODc1LC0yNzE1OTExMjEsLTIwMDY4Nzg3MCw3MjY2ODg3NzIsMz
+Y0OTEzOTAzLDE1ODE3NTc5ODIsMTA2MzM1ODg3OSw5MDIxOTIw
+MzVdfQ==
 -->
