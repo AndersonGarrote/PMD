@@ -54,17 +54,21 @@ Definiremos o nó A como líder e os nós B e C como membros, para construir o c
 Nos nós B e C a configuração é bem simples. Acessando pelo navegador endereço correspondente ao IP encontrado anteriormente na porta 8080, podemos fazer a configuração inicial do nó:
 
 Aceite os termos de uso:
+
 ![termos de uso](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_224010_localhost.png)
 
 Selecione o modo não seguro (para fins de demonstração):
+
 ![escolher modo de configuração](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Captura%20de%20tela%20de%202019-11-06%2022-40-44.png)
  
 Digite o IP correspondente no campo indicado:
+
 ![definir ip e porta](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_224324_172.17.0.3.png)
 
 Clique em Next para continuar. 
 
 Reinicie o servidor:
+
 ![reiniciar servidor](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Captura%20de%20tela%20de%202019-11-06%2022-41-10.png)
 
 Faça o mesmo processo para o outro nó membro.
@@ -80,45 +84,66 @@ Clique em Next e ao final, reinicie o nó:
 
 ### Definindo a topologia
 Com o navegador aberto no endereço do nó Líder, no nosso caso o nó A, usaremos o RavenStudio para definir a topologia do *cluster*:
+
 ![tela inicial](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Captura%20de%20tela%20de%202019-11-06%2022-45-30.png)
 
 > Antes de começar, certifique-se que você possuí uma licença gratuíta, que permite a criação de um cluster com até 3 nós. Você pode obtê-la em: https://ravendb.net/license/request?&build=42020
 
 
 No menu lateral, clique na opção About: 
+
 ![about](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_225216_172.17.0.3.png)
 
 Nessa tela, clique em Register License:
+
 ![configurar licença](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Captura%20de%20tela%20de%202019-11-06%2022-45-40.png)
 
 Insira a licença obtida anteriormente ou clique em "*Obtain a new license*". Depois, clique em "Submit":
+
 ![submit](https://github.com/AndersonGarrote/PMD/blob/master/Configura%C3%A7%C3%A3o%20do%20Cluster/Captura%20de%20tela%20de%202019-11-07%2008-37-00.png)
 
 Agora seguiremos com a configuração.
 
 No menu lateral, clique na opção "Manage Server": 
+
 ![manage server](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_225216_172.17.0.3.png)
 
 No sub-menu, clique na opção "Cluster":
+
 ![cluster](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_225252_172.17.0.3.png)
 
-Vamos agora definir o número máximo de núcleos no nó.
+Vamos agora definir o número máximo de núcleos do processador no nó.
 
 > Na licença grátis, é permitido no máximo o uso de 3 *cores*  (núcleos) ao todo no cluster. Por isso, é necessário limitar o uso de núcleos por nó. Caso apareça uma mensagem aviando que o número máximo de *cores* foi atingido, retorne para esta etapa antes de continuar.
 
-No nó A clique em "*Operations*":
+No nó A clique em "*Operations*"e em seguida em "*Reassign Cores*":
 
-Clique em "*Assign Cores*"
+![cores](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_224803_172.17.0.3.png)
+
+Defina o numero de *cores* para 1 e salve:
+
+![max_cores](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_224835_172.17.0.3.png)
+
+Voltando para a tela de configuração do cluster:
+
+![cluster](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_225252_172.17.0.3.png)
 
 Clique em "*Add node to Cluster*"
 
 Insira o IP e porta e a Tag do nó Membro, por exemplo B. Tome cuidado para não esquecer de desmarcar a opção "*Use Available Cores*" e definir o número máximo de *cores* para 1:
 
+![config_node](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_224728_172.17.0.3.png)
+
+
 Clique em "*Test Connection*"
+
+![teste](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_224657_172.17.0.3.png)
 
 Se a conexão foi realizada, clique em "*Add*". Se não funcionar, revise os passos anteriores.
 
 O Studio deve exibir a seguinte tela com a topologia do cluster:
+
+![topologia](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Captura%20de%20tela%20de%202019-11-06%2022-51-23.png)
 
 Repita o processo para o outro membro.
 
@@ -130,9 +155,11 @@ Vamos agora criar um banco com replicação, mantendo os nós replicados em todo
 No menu lateral, clique na opção "Databases": 
 ![manage server](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_225216_172.17.0.3.png)
 
-Clique em "*Add database*":
+Clique em "*Add database*".
 
 Defina o nome do banco e o fator de replicação. No nosso caso, o fator será 3 para que cada nó tenha uma réplica do banco:
+
+![new database](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-07_071059_172.17.0.2.png)
 
 Agora, basta clicar no banco para acessar os documentos, manipulá-los e fazer consultas, na opção Query.
 
