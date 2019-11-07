@@ -13,16 +13,16 @@ Atualmente o RavenDB não dá suporte para *sharding*, sendo previsto para ser i
 
 Fontes:
 [https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overview](https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overview)
-[https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/distribution/distributed-database](https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/distribution/distributed-database)
+[https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/distribution/distributed-database](https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/distribution/distributed-databaserainsen-oerations)
 [https://ravendb.net/learn/inside-ravendb-book/reader/4.0/6-ravendb-clusters](https://ravendb.net/learn/inside-ravendb-book/reader/4.0/6-ravendb-clusters)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgwNzQxNzI2LDczNDk5NDEwOSwtOTQzOD
-U1MzQ0LC0yMDUxMjIwOTQwLDE4Mzk4ODAxMjcsLTExNDk5NzQz
-MjYsMTY5NDA0MjEyMCwtMjg0OTI5OTk5LDExNDM3ODM3NjEsLT
-Q3MjU4MDE4MSwtMTg2NzMzNTAyMSwtNjg1MDgwNzE2LDcxMTU3
-NzUxMiwyODI0NTY0MDQsMTU0OTEwOTU2NSwxNDY4NTM1MjkyLD
-ExODQ0MjM2MDIsNjAxMDM4NTY2LDQ5MTAzODMzLDYwMTAzODU2
-Nl19
+eyJoaXN0b3J5IjpbMjQ3NDU0OTA3LDg4MDc0MTcyNiw3MzQ5OT
+QxMDksLTk0Mzg1NTM0NCwtMjA1MTIyMDk0MCwxODM5ODgwMTI3
+LC0xMTQ5OTc0MzI2LDE2OTQwNDIxMjAsLTI4NDkyOTk5OSwxMT
+QzNzgzNzYxLC00NzI1ODAxODEsLTE4NjczMzUwMjEsLTY4NTA4
+MDcxNiw3MTE1Nzc1MTIsMjgyNDU2NDA0LDE1NDkxMDk1NjUsMT
+Q2ODUzNTI5MiwxMTg0NDIzNjAyLDYwMTAzODU2Niw0OTEwMzgz
+M119
 -->
