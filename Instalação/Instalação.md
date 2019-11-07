@@ -29,7 +29,7 @@ Feito isso, podemos subir um container usando o seguinte comando:
 ``
 
 ## Versão Windows
-
+Depois de baixar o arquivo .zip, extraia o conteúdo, 
 ## Versão Linux
 
 ## Verificando estado do servidor
@@ -45,7 +45,7 @@ Neste ponto, podemos seguir para a **Configuração do Cluster**.
 Fonte: https://ravendb.net
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODI5MTk1MSwtMzAyMzQ3OTgyLDgyMD
+eyJoaXN0b3J5IjpbLTYwNjk0MjUyMSwtMzAyMzQ3OTgyLDgyMD
 gwNDY2MywtNjM3MjIwNzYyLC0xMTQwNjAzMjAxLDEyMjc0NzA0
 OTEsMTUwMjAwMzYzOCwxMzEzNTg0ODc1LC0yNzE1OTExMjEsLT
 IwMDY4Nzg3MCw3MjY2ODg3NzIsMzY0OTEzOTAzLDE1ODE3NTc5
