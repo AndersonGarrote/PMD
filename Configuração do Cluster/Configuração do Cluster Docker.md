@@ -54,7 +54,7 @@ Definiremos o nó A como líder e os nós B e C como membros, para construir o c
 ### Membros
 Nos nós B e C a configuração é bem simples. Acessando pelo navegador endereço correspondente ao IP encontrado anteriormente na porta 8080, podemos fazer a configuração inicial do nó:
 
-Aceite os termos de uso.
+Aceite os termos de uso:
 
 Selecione o modo não seguro (para fins de demonstração):
  
@@ -68,7 +68,11 @@ Reinicie o servidor:
 Faça o mesmo processo para o outro nó membro.
 
 ### Líder
-O processo é bem parecido, com o detalhe de selecionar apenas a opção *Create new Cluster* e definindo o nome do nó.
+O processo é bem parecido, com o detalhe de selecionar apenas a opção *Create new Cluster* e definir o nome do nó.
+
+Ao final, reinicie o nó:
+
+
 
 >Essa configuração pode mudar com o passar do tempo, pois devido a questões como problemas com a rede ou sobrecarga de recursos, pode haver uma votação e um novo líder ser escolhido.
 
@@ -76,6 +80,6 @@ O processo é bem parecido, com o detalhe de selecionar apenas a opção *Create
 ## Criando um banco com replicação
 Vamos agora criar um banco com replicação, mantendo os nós replicados em todos os nós.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDc0ODExNCwtNDc1ODQ1MzM1LDY0Mz
-gzNTQ5NiwtMTI2MTM2MzYzMCwzMTQxMDYwMl19
+eyJoaXN0b3J5IjpbLTEwMTU5NDgzOTcsLTQ3NTg0NTMzNSw2ND
+M4MzU0OTYsLTEyNjEzNjM2MzAsMzE0MTA2MDJdfQ==
 -->
