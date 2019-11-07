@@ -1,5 +1,5 @@
-# Configurando um Cluster usando o RavenDB
-Para essa demonstração usaremos a versão gratuita do RavenDB que permite criar um cluster com até 3 nós. Para fazer essa etapa, será necessário ter realizado a 
+# Configurando um Cluster Local  usando o RavenDB e Docker
+Para essa demonstração usaremos a versão gratuita do RavenDB que permite criar um cluster com até 3 nós. Para fazer essa etapa, será necessário ter obtido uma licença grátis,
 
 ## Subindo uma instância Líder (Leader)
 Usando o Docker, criaremos um container com o servidor do RavenDB, com o seguinte comando no terminal:
@@ -29,7 +29,7 @@ Prosseguiremos com a configuração, acessando o endereço:
 
 ## Criando um banco com replicação
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTE1NDU3MCw1Nzk2MTU1OTYsNjQ5Nj
-k0MTQzLC0xMTI1MDM2MjY2LC0yNDg4Nzg0NzUsMzQ2MTE1ODE5
-XX0=
+eyJoaXN0b3J5IjpbMjAxMzU0NjA1MywtODk5MTU0NTcwLDU3OT
+YxNTU5Niw2NDk2OTQxNDMsLTExMjUwMzYyNjYsLTI0ODg3ODQ3
+NSwzNDYxMTU4MTldfQ==
 -->
