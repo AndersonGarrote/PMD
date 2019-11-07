@@ -1,5 +1,5 @@
 # Configurando um Cluster Local usando o RavenDB e Diferentes Máquinas
-Para essa demonstração usaremos a versão gratuita do RavenDB que permite criar um cluster com até 3 nós. Para fazer essa etapa, será necessário ter obtido uma licença grátis, disponível neste link:https://ravendb.net/buy
+Para essa demonstração usaremos a versão gratuita do RavenDB que permite criar um cluster com até 3 nós. Para fazer essa etapa, será necessário ter obtido uma licença grátis, disponível neste link: https://ravendb.net/buy
 
 ## Subindo uma instância Líder (Leader) e duas instâncias Membro (Member)
 
@@ -8,7 +8,7 @@ Para essa demonstração usaremos a versão gratuita do RavenDB que permite cria
 Iniciaremos o executável da versão de Linux em cada uma das 3 máquinas:
  
  ```
-./run.
+./run.sh
  ```
 
 ## Encontrando o IP e porta de cada instância
