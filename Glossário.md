@@ -6,17 +6,17 @@
  - **Fator de Replicação**: Número de réplicas de banco de dados em um *cluster*.
  - **Nó do *Cluster***: Membro de um cluster erações de *clusters* controlados pelo consenso *Rachis*.
  - **Nó *Leader* (Líder)**: Nó responsável por coordenar o *cluster*, adicionar novos nós e monitorar seus estados. É sempre um Membro.
- - **Nó *Member* (Membro)**: Nó capaz de votar em caso de eleição de Líder. Respondem a requisições normalmente.
- - **Nó *Watcher* (ObservadorMembro)**: Nó incapaz de votar em caso de eleição de Líder.
+ - **Nó *Member* (Membro)**: Nó capaz de votar em caso de eleição de Líder. Responde a requisições normalmente.
+ - **Nó *Watcher* (ObservadorMembro)**: Nó incapaz de votar em caso de eleição de Líder. Responde a requisições normalmente.
  - **Grupo de Banco de Dados**: Nós que possuem o mesmo banco de dados.
- - **Teorema CAP**: Teorema que diz que não é possível ter omesmo tempo, garantia de 
+ - **Teorema CAP**: Teorema que diz que não é possível ter mesmo tempo,  forma completa, a garantia de *Consistency* (consistência), *Availability* (disponibi 
 
 Fonte: https://ravendb.net
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDAxMjI4NSwtMTI5MjAyNzkzMiwtMz
-Q5OTcyMDcxLDE1OTMzMjMxNjQsNDA2MTYwNjMzLC01NTE0NTg3
-MzEsMTI5ODA5MTc4MSw3ODQwNDA5NjksLTEzOTEyMzcxMzIsLT
-ExMTY2MDQ2ODNdfQ==
+eyJoaXN0b3J5IjpbMTczNjUyMzk3NCwxNzM0MDEyMjg1LC0zND
+k5NzIwNzEsMTU5MzMyMzE2NCw0MDYxNjA2MzMsLTU1MTQ1ODcz
+MSwxMjk4MDkxNzgxLDc4NDA0MDk2OSwtMTM5MTIzNzEzMiwtMT
+ExNjYwNDY4M119
 -->
