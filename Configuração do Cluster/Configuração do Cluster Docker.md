@@ -153,6 +153,7 @@ Repita o processo para o outro membro.
 Vamos agora criar um banco com replicação, mantendo os nós replicados em todos os nós.
 
 No menu lateral, clique na opção "Databases": 
+
 ![manage server](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_225216_172.17.0.3.png)
 
 Clique em "*Add database*".
