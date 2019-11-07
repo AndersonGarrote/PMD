@@ -4,7 +4,7 @@ Para essa demonstração usaremos a versão gratuita do RavenDB que permite cria
 ## Subindo uma instância Líder (Leader)
 Usando o Docker, criaremos um container com o servidor do RavenDB, com o seguinte comando no terminal:
  
- ``
+ ```
 docker run --name "nodeA" -d -p 8080:8080 -p 38888:38888 ravendb/ravendb
  ``
 
@@ -24,18 +24,25 @@ Prosseguiremos com a configuração, acessando o endereço:
 ## Subindo instâncias Membro (Member)
 Criaremos agora mais dois containers com os seguintes comandos no terminal:
  
- ``
+ ```
 docker run --name "nodeB" -d -p 8081:8080 ravendb/ravendb
- ``
+ ```
  
- ``
+ ```
 docker run --name "nodeC" -d -p 8082:8080 ravendb/ravendb
- ``
+ ```
 
 ## Encontrando o IP e porta de cada instância
+Podemos encontrar o IP e a porta de cada container usando o comando:
+ ```
+docker network inspect bridge
+```
+
 
 ## Definindo os nós do Cluster
+
 Definiremos o nó A como líder e os nós B e C como membros, para construir o cluster.
+
 ### Membros
 Nos nós B e C a configuração é bem simples. Acessando o endereço correspondente
 
@@ -48,5 +55,5 @@ Nos nós B e C a configuração é bem simples. Acessando o endereço correspond
 ## Criando um banco com replicação
 Vamos agora criar um banco com replicação, mantendo os nós replicados em todos os nós.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE0MTA2MDJdfQ==
+eyJoaXN0b3J5IjpbLTIxMDc4NjgyMzksMzE0MTA2MDJdfQ==
 -->
