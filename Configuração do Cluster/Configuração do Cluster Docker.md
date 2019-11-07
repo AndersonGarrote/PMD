@@ -34,11 +34,17 @@ docker run --name "nodeC" -d -p 8082:8080 ravendb/ravendb
 
 ## Definindo os nós do Cluster
 Definiremos o nó A como líder e os nós B e C como membros, para construir o cluster.
->Essa configuração pode mudar com o passar do tempo, pois devido a questões como problemas com a rede ou sobrecarga de recursos, pode haver uma votação e um novo líder pode ser escolhido
+### Membros
+Nos nós B e C a configuração é bem simples. Acessando o endereço 172
+
+
+
+
+>Essa configuração pode mudar com o passar do tempo, pois devido a questões como problemas com a rede ou sobrecarga de recursos, pode haver uma votação e um novo líder ser escolhido.
 
 
 ## Criando um banco com replicação
 Vamos agora criar um banco com replicação, mantendo os nós replicados em todos os nós.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk3MzIzNjg3XX0=
+eyJoaXN0b3J5IjpbNDg2NzcwODI4XX0=
 -->
