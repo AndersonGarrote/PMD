@@ -19,8 +19,6 @@ Onde cada parâmetro significa:
 
 Mais informações na documentação do comando [run](https://docs.docker.com/engine/reference/run). 
 
-Prosseguiremos com a configuração, acessando o endereço: 
-
 ## Subindo instâncias Membro (Member)
 Criaremos agora mais dois containers com os seguintes comandos no terminal:
  
@@ -69,7 +67,7 @@ Reinicie o servidor:
 Faça o mesmo processo para o outro nó membro.
 
 ### Líder
-O processo é bem parecido, com o detalhe de selecionar apenas a opção *Create new Cluster* e definirndo o nome do nó.
+O processo é bem parecido, com o detalhe de selecionar apenas a opção *Create new Cluster* e definir o nome do nó, na tela de configuração de endereços:
 
 Ao final, reinicie o nó:
 
@@ -82,8 +80,8 @@ Com o navegador aberto no endereço do nó A, usaremos o RavenStudio para defini
 ## Criando um banco com replicação
 Vamos agora criar um banco com replicação, mantendo os nós replicados em todos os nós.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0MDMzODQwLDE1ODUwMTgxNDMsLTE3Nz
-A2OTUyMDIsLTIwMDUxNzE5MzYsLTEwMTU5NDgzOTcsLTQ3NTg0
-NTMzNSw2NDM4MzU0OTYsLTEyNjEzNjM2MzAsMzE0MTA2MDJdfQ
-==
+eyJoaXN0b3J5IjpbLTE1ODg5NzEzNDYsMTU4NTAxODE0MywtMT
+c3MDY5NTIwMiwtMjAwNTE3MTkzNiwtMTAxNTk0ODM5NywtNDc1
+ODQ1MzM1LDY0MzgzNTQ5NiwtMTI2MTM2MzYzMCwzMTQxMDYwMl
+19
 -->
