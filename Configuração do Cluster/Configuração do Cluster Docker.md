@@ -35,7 +35,6 @@ docker run --name "nodeC" -d -p 8082:8080 ravendb/ravendb
 ## Encontrando o IP e porta de cada instância
 Podemos encontrar o IP e a porta de cada container usando o comando:
  ```
-docker network inspect bridge
 ```
 Buscando o endereço de cada nó, similar a seguinte saída:
 ```
@@ -53,7 +52,7 @@ Buscando o endereço de cada nó, similar a seguinte saída:
 Definiremos o nó A como líder e os nós B e C como membros, para construir o cluster.
 
 ### Membros
-Nos nós B e C a configuração é bem simples. Acessando pelo navegador o endereço correspondente ao IP encontrado anteriormente na porta 8080, podemos fazer a configuração inicial do nó:
+Nos nós B e C a configuração é bem simples. Acessando peo aegado endereço correspondente ao IP encontrado anteriormente na porta 8080, podemos fazer a configuração inicial do nó:
 
 Aceite os termos de uso.
 
@@ -61,7 +60,8 @@ Selecione o modo não seguro (para fins de demonstração):
  
 Digite o IP correspondente no campo indicado:
 
-Clique em continua
+Clique em continua. 
+
 
 
 >Essa configuração pode mudar com o passar do tempo, pois devido a questões como problemas com a rede ou sobrecarga de recursos, pode haver uma votação e um novo líder ser escolhido.
@@ -70,6 +70,6 @@ Clique em continua
 ## Criando um banco com replicação
 Vamos agora criar um banco com replicação, mantendo os nós replicados em todos os nós.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzc5NzgxMzYsLTEyNjEzNjM2MzAsMz
-E0MTA2MDJdfQ==
+eyJoaXN0b3J5IjpbNjQzODM1NDk2LC0xNzc3OTc4MTM2LC0xMj
+YxMzYzNjMwLDMxNDEwNjAyXX0=
 -->
