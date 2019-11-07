@@ -67,8 +67,9 @@ r:
 Reinicie o servidor:
 
 Faça o mesmo processo para o outro nó membro.
+
 ### Líder
-O processo eh
+O processo é bem parecido, com o detalhe de selecionar apenas a opção *Create new Cluster* e definindo o nome do nó.
 
 >Essa configuração pode mudar com o passar do tempo, pois devido a questões como problemas com a rede ou sobrecarga de recursos, pode haver uma votação e um novo líder ser escolhido.
 
@@ -76,6 +77,6 @@ O processo eh
 ## Criando um banco com replicação
 Vamos agora criar um banco com replicação, mantendo os nós replicados em todos os nós.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTg0NTMzNSwtMjAyMzExMzg4Nyw2ND
-M4MzU0OTYsLTEyNjEzNjM2MzAsMzE0MTA2MDJdfQ==
+eyJoaXN0b3J5IjpbMTkyOTc3NDUyNywtNDc1ODQ1MzM1LDY0Mz
+gzNTQ5NiwtMTI2MTM2MzYzMCwzMTQxMDYwMl19
 -->
