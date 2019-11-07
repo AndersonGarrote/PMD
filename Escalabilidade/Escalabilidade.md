@@ -6,7 +6,8 @@ Se tratando de escalabilidade, quando um novo nó é inserido no Grupo do Banco 
 Temos uma replicação _master-slave_ onde os dados são enviados de maneira assíncrona toda vez que um novo nó entrar no _cluster_ ou algum dado mudar no _Master_.
 
 Assim fica possível escalar sistemas a nível de _clusters_ com simplicidade.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyMzY1MDc5LC0yMTMzNzM4ODRdfQ==
+eyJoaXN0b3J5IjpbMTQ3ODI0MTAyOSwtMjEzMzczODg0XX0=
 -->
