@@ -12,7 +12,7 @@ A seguir teremos a demonstração de uma topologia com possíveis falhas junto c
 Para exemplificar iremos criar uma topologia de 3 nós sendo o nó **A** definido como *Master* e os nós **B** e **C** como *Members*.
 
 - Para subirmos as máquinas:
-> $ sudo docker run -d -p 8080:8080 -p 38888:38888 ravendb/ravendb
+	> $ sudo docker run -d -p 8080:8080 -p 38888:38888 ravendb/ravendb
 
 ![enter image description here](https://lh3.googleusercontent.com/MgNJC99AoQCBJOjNjTcNeUJhisnHGXXEI4_zZZhRPM97eh55lO5dCfuvAhYbtD-FTMNzzPb51as)
 
@@ -26,7 +26,10 @@ Existem quatro tipos de nó:
 
 Ao derrubarmos o nó **A** teremos uma nova eleição que será realizada pelo quórum restante de Membros:
 
-Para derrubarmos um nó:
+- Para vermos quais máquinas estão funcionando:
+	>  $sudo docker container ls
+- Para derrubarmos um nó:
+> 
 
 ![enter image description here](https://lh3.googleusercontent.com/_Y01ZYw1RYHJqHdWXL8QSF6RBqicHRjaEIVhwjMkcWDwM-03O3RZouAY0HJ2PQy69bfoSLcBtZU)
 
@@ -38,6 +41,6 @@ Fonte:[https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overvi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTg1NDkzMDYsLTExNDgzNTEyMjksMT
-M4Nzc3MzM0OSwyMTcwNjQ2NzUsLTE3NDI3MjM0MjddfQ==
+eyJoaXN0b3J5IjpbMTU2ODM4Mjc1NywtMTE0ODM1MTIyOSwxMz
+g3NzczMzQ5LDIxNzA2NDY3NSwtMTc0MjcyMzQyN119
 -->
