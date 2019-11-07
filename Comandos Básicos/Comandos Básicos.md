@@ -29,11 +29,11 @@ Cláusula `group by`
 RQL: `group by <column>`
 Exemplo:
 RQL: `from Products group by Supplier where count() > 15`
-SQL: `select Name from Products where PricePerUnit = 15`
+SQL: `select * from Products where count(Supplier) = 15 group by Supplier`
 
 
 Saiba mais sobre RQL em: https://ravendb.net/docs/article-page/4.2/csharp/indexes/querying/what-is-rql
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNzQwMjQ0NiwtMjA1NzkwNTMxOSwtNj
-c3NzA2NDQ3XX0=
+eyJoaXN0b3J5IjpbODIxNDk5OTM1LC0yMDU3OTA1MzE5LC02Nz
+c3MDY0NDddfQ==
 -->
