@@ -137,7 +137,15 @@ Insira o IP e porta e a Tag do nó Membro, por exemplo B. Tome cuidado para não
 
 Clique em "*Test Connection*"
 
-![teste](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_224657_172.17.0.3.png)
+![teste](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_224657_172.17.0.3.png):
+
+Clique em "*Assign Cores*"
+
+Clique em "*Add node to Cluster*"
+
+Insira o IP e porta e a Tag do nó Membro, por exemplo B. Tome cuidado para não esquecer de desmarcar a opção "*Use Available Cores*" e definir o número máximo de *cores* para 1:
+
+Clique em "*Test Connection*"
 
 Se a conexão foi realizada, clique em "*Add*". Se não funcionar, revise os passos anteriores.
 
@@ -156,7 +164,7 @@ No menu lateral, clique na opção "Databases":
 
 ![manage server](https://github.com/AndersonGarrote/PMD/blob/master/Configuração%20do%20Cluster/Opera%20Instantâneo_2019-11-06_225216_172.17.0.3.png)
 
-Clique em "*Add database*".
+Clique em "*Add database*".:
 
 Defina o nome do banco e o fator de replicação. No nosso caso, o fator será 3 para que cada nó tenha uma réplica do banco:
 
@@ -168,8 +176,8 @@ Agora, basta clicar no banco para acessar os documentos, manipulá-los e fazer c
 
 Fonte: https://ravendb.net
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjA2NjExOSwtMTU4ODk3MTM0NiwxNT
-g1MDE4MTQzLC0xNzcwNjk1MjAyLC0yMDA1MTcxOTM2LC0xMDE1
-OTQ4Mzk3LC00NzU4NDUzMzUsNjQzODM1NDk2LC0xMjYxMzYzNj
-MwLDMxNDEwNjAyXX0=
+eyJoaXN0b3J5IjpbMTkwNzM5NjEsLTgxMjA2NjExOSwtMTU4OD
+k3MTM0NiwxNTg1MDE4MTQzLC0xNzcwNjk1MjAyLC0yMDA1MTcx
+OTM2LC0xMDE1OTQ4Mzk3LC00NzU4NDUzMzUsNjQzODM1NDk2LC
+0xMjYxMzYzNjMwLDMxNDEwNjAyXX0=
 -->
