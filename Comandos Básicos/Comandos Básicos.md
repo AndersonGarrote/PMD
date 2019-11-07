@@ -41,11 +41,11 @@ SQL: `select Name from Products where PricePerUnit = 15`
 RQL: `order by <column> as <DataType> <OrderingType>`
 
 - Exemplo:
-Retornar Produtos com preço por unidade = 15 ordenados pelo nome
+Retornar Produtos com preço por unidade = 15 ordenados pelas unidades em pedidos
 
-RQL: `from Products where PricePerUnit = 15 orderby Name as string`
+RQL: `from Products where PricePerUnit = 15 order by UnitsOnOrder as long `
 
-SQL: `select * from Products where PricePerUnit = 15 orderby Name`
+SQL: `select * from Products where PricePerUnit = 15 orderby UnitsOnOrder`
 
 ### Cláusula `group by`
 RQL: `group by <column>`
