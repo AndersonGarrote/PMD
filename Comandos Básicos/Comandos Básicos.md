@@ -31,10 +31,10 @@ Exemplo:
 RQL: `from Products group by Supplier where count() > 15`
 SQL: `select * from Products where count(Supplier) = 15 group by Supplier`
 
-> Retorna fornecedores com mais de 15 produtos
+> Retorna fornecedores com mais de 15 produtos`
 
 Saiba mais sobre RQL em: https://ravendb.net/docs/article-page/4.2/csharp/indexes/querying/what-is-rql
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MTc1MDEwMSwtMjA1NzkwNTMxOSwtNj
-c3NzA2NDQ3XX0=
+eyJoaXN0b3J5IjpbNzg3NDIyNzAzLDEwNjE3NTAxMDEsLTIwNT
+c5MDUzMTksLTY3NzcwNjQ0N119
 -->
