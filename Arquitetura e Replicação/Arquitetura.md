@@ -9,14 +9,9 @@ A **Camada de Cluster** é composta por nós (3 ou mais, é recomendado um núme
 
 A **Camada de Banco de Dados** representa bancos de dados de um *cluster* que formam um grupo e trabalham em união e cooperativamente. A quantidade de membros nos grupos é definido pelo Fator de Replicação. Cada nó possui uma cópia completa da topologia do *cluster* (informações dos nós que compõe o cluster), no qual especifica qual nó possui um determinado banco de dados. Esse processo de replicação ocorre sobre uma conexão TCP entre os nós.
 
-> Essa distinção é importante para manter várias propriedades do
-> RavenDB. A eleição de um nó líder pelo consenso *Rachis* oferece a
-> consistência forte, permitindo a continuidade da operação com a
-> garantia do líder de que a maioria dos nós estão funcionando. Isso
-> também significa que cada operação do *cluster* será futuramente
-> aceita, ou não, pelo *cluster* inteiro.
+> Essa distinção entre duas camadas é importante para manter várias propriedades do RavenDB. A eleição de um nó líder pelo consenso *Rachis* oferece a consistência forte, permitindo a continuidade da operação com a garantia do líder de que a maioria dos nós estão funcionando. Isso também significa que cada operação do *cluster* será futuramente aceita, ou não, pelo *cluster* inteiro.
 
-## Camada de Banco de Dados
+## RavenDB e o Teorema CAP
 
 De acordo com o **Teorema CAP**, o *RavenDB* consegue ser **tolerante a partições**, **consistênte** e **disponível**. Mesmo contradizendo o teorema CAP, isso é possível pois ele aborda cada propriedade em uma camada diferente. A camada de *cluster* é  CP, ou seja, consistente mas pode não estar disponível. A camada de *banco de dados* é AP, ou seja, sempre disponível mas pode não ser consistente.
 
@@ -26,5 +21,5 @@ Fontes:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3MTE2MTM1XX0=
+eyJoaXN0b3J5IjpbNDI0NjcyNDI0XX0=
 -->
