@@ -5,7 +5,6 @@ Um banco de dados pode ser replicado em vários nós dentro de um *cluster*, dep
 Atualmente o RavenDB não dá suporte para *sharding*, sendo previsto para ser implementado em uma versão futura. 
 
 [https://ravendb.net/learn/inside-ravendb-book/reader/4.0/6-ravendb-clusters](https://ravendb.net/learn/inside-ravendb-book/reader/4.0/6-ravendb-clusters)
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODU3MjI4OV19
+eyJoaXN0b3J5IjpbMTAxNjUxNDQ0OV19
 -->
