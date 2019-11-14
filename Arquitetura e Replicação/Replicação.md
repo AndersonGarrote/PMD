@@ -6,7 +6,6 @@ Atualmente o RavenDB não dá suporte para *sharding*, sendo previsto para ser i
 
 [https://ravendb.net/learn/inside-ravendb-book/reader/4.0/6-ravendb-clusters](https://ravendb.net/learn/inside-ravendb-book/reader/4.0/6-ravendb-clusters)
 
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTg1NDA3NV19
+eyJoaXN0b3J5IjpbLTM0ODU3MjI4OV19
 -->
