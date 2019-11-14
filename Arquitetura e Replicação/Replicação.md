@@ -1,4 +1,5 @@
 # Replicação de Dados
+
 Um banco de dados pode ser replicado em vários nós dentro de um *cluster*, dependendo do Fator de Replicação. Quando um nó possui um banco de dados ele é chamado de *nó de banco de dados*. Cada um desses *nós* possuem uma cópia completa do banco de dados localmente, incluindo os documentos e índices, e assim podem realizar qualquer operação de busca e escrita de dados. Além dessas operações locais em cada *nó*, há também operações que impactam o *cluster* inteiro, sendo no caso operações de, por exemplo, criação de documento. Um *grupo de banco de dados* pode ser formado por vários desses nós, e quando um banco de dados novo é criado, pode-se escolher em quais nós ele existe.
 
 >Na camada de *clusters* é feita a replicação entre dois grupos de bancos de dados (Denominada de Replicação Externa) de forma semelhante a replicação tradicional. 
@@ -9,5 +10,5 @@ Um banco de dados pode ser replicado em vários nós dentro de um *cluster*, dep
 
 [https://ravendb.net/learn/inside-ravendb-book/reader/4.0/6-ravendb-clusters](https://ravendb.net/learn/inside-ravendb-book/reader/4.0/6-ravendb-clusters)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTE5MDI0NjEsMTAxNjUxNDQ0OV19
+eyJoaXN0b3J5IjpbLTE5MjQ4MjgyMzksMTAxNjUxNDQ0OV19
 -->
