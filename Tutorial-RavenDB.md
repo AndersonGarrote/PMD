@@ -23,7 +23,7 @@ O banco de dados de documentos NoSQL **RavenDB** pode ser baixado na seção de 
 
 
 
-## sando o Docker
+## Usando o Docker
 Caso deseje usar apenas uma máquina para seguir este tutorial, utilizaremos a versão para Docker, por ser multiplataforma e permitir realizar os testes de instâncias de nós no cluster usando containers.
 
 >Para isso, é necessário instalar o docker, pelo instalador de programas do sistema operacional ou direto do site [www.docker.com](https://www.docker.com). Nesse endereço também é possível encontrar, mais informações úteis sobre o Docker.
@@ -479,7 +479,7 @@ Um banco de dados pode ser replicado em vários nós dentro de um *cluster*, dep
 
 >Na camada de *clusters* é feita a replicação entre dois grupos de bancos de dados (Denominada de Replicação Externa) de forma semelhante a replicação tradicional. 
 
- Cada nó se mantém sincronizado a partir de replicação *master-master*. Todo nó possui uma cópia do banco de dados de seu grupo e cada mudança é replicada automaticamente à outras instâncias do banco de dados. Isso significa que se tivermos um *cluster* com os nós A, B e C e criarmos um banco de dados com 3 de fator de replicação no nó A, esse banco também estará nos nós B e C.
+ Cada nó se mantém sincronizado a partir de replicação *master-master*. Neste tipo de replicação, qualquer nó pode realizar escritas ao banco de dados e essa mudança será replicada aos outros nós. Isso significa que todo nó possui uma cópia do banco de dados de seu grupo e cada mudança de escrita é replicada automaticamente à outras instâncias do banco de dados. Por exemplo, se tivermos um *cluster* com os nós A, B e C e criarmos um banco de dados com 3 de fator de replicação no nó A, esse banco também estará nos nós B e C. E se o nó C realizar uma escrita ao banco de dados, os nós A e B serão atualizados com a mudança.
  
 > Atualmente o RavenDB não dá suporte para *sharding*, sendo previsto para ser implementado em uma versão futura. 
 
