@@ -1,6 +1,6 @@
 # Tutorial RavenDB
 
-## Table of Contents
+## Tabela de Conteúdos
 
    * [Tutorial RavenDB](#tutorial-ravendb)
    * [Visão Geral](#visão-geral)
@@ -517,7 +517,7 @@ A **Camada de Banco de Dados** representa bancos de dados de um *cluster* que fo
 
 ## RavenDB e o Teorema CAP
 
-De acordo com o **Teorema CAP**, o *RavenDB* consegue ser **tolerante a partições**, **consistênte** e **disponível**. Mesmo contradizendo o teorema CAP, isso é possível pois ele aborda cada propriedade em uma camada diferente. A camada de *cluster* é  CP, ou seja, consistente mas pode não estar disponível. A camada de *banco de dados* é AP, ou seja, sempre disponível mas pode não ser consistente.
+De acordo com o **Teorema CAP**, o *RavenDB* consegue ser **tolerante a partições**, **consistente** e **disponível**. Mesmo contradizendo o teorema CAP, isso é possível pois ele aborda cada propriedade em uma camada diferente. A camada de *cluster* é  CP, ou seja, consistente mas pode não estar disponível. A camada de *banco de dados* é AP, ou seja, sempre disponível mas pode não ser consistente.
 
 Fontes:
 [https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overview](https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overview)
@@ -588,8 +588,6 @@ Em um outro cenário onde **C** foi rebaixado, ficando como um _Watcher_. Ao der
 	
 Fonte:[https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overview](https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overview)
 
-> Written with [StackEdit](https://stackedit.io/).
-
 
 ## Escalabilidade
 
@@ -600,8 +598,6 @@ Temos uma replicação _master-master_ onde os dados são enviados de maneira as
 Assim fica possível escalar sistemas a nível de _clusters_ com simplicidade.
 
 Fonte: https://ravendb.net/docs/article-page/4.2/Csharp/server/clustering/distribution/distributed-database
-
-> Written with [StackEdit](https://stackedit.io/).
 
 # Transações
 As operações no RavenDB sobre documentos e em armazenamentos feitas são todas ACID:
