@@ -1,5 +1,5 @@
 # Tutorial RavenDB
-[
+
 # Visão Geral
 
 O RavenDB é um banco de dados NoSQL orientado a documentos com operações ACID em todo o *cluster*.
@@ -654,5 +654,5 @@ where count() >= 3
 select Supplier, count()`
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM1OTU3MjgzLC0yMDQ3MDkzNDA5XX0=
+eyJoaXN0b3J5IjpbMTA5NjYzNDk3MCwtMjA0NzA5MzQwOV19
 -->
