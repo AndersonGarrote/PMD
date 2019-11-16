@@ -649,6 +649,8 @@ Fonte: https://ravendb.net/docs/article-page/4.2/csharp/server/security/overview
  - **Grupo de Banco de Dados**: Nós que possuem o mesmo banco de dados.
  - **Teorema CAP**: Teorema que diz que não é possível ter mesmo tempo,  forma completa, a garantia de *Consistency* (consistência), *Availability* (disponibilidade) e *Partition Tolerance* (tolerância a partição, escalabilidade).
  
+ Fonte: https://ravendb.net/
+ 
 # Exercícios
 > Para fazer os exercícios, crie um banco de dados de exemplo pelo menu lateral esquerdo, na opção Settings -> Create Sample Data. Clique em Create. 
 
@@ -702,7 +704,6 @@ where spatial.within(
 group by Supplier
 where count() >= 3
 select Supplier, count()`
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTA5NjYzNDk3MCwtMjA0NzA5MzQwOV19
 -->
