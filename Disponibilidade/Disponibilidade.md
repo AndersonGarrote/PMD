@@ -19,7 +19,8 @@ Para exemplificar iremos criar uma topologia de 3 nós sendo o nó **A** definid
 
 Existem quatro tipos de nó:
 
- ![Tipos de nó](https://lh3.googleusercontent.com/uRTulWUIS99gzAZh4LWxYenhbIln2SIYEmf3LzglHeBlPU_Ab_MTfRAIN-AR5fJrjp2OjfBE5jQ)
+ ![Tipos de nó](https://github.com/AndersonGarrote/PMD/blob/master/Disponibilidade/Tipos.png)
+
 - *Leader*: Nó líder do *Group Database*, é responsável por manter a saúde do _cluster_ e assegurar a consistência das decisões.
 - *Member*: Nó membro do *Group Database*, pode se tornar um Líder em caso de eleição.
 - *Watcher*: Nó membro com menos privilégios; não pode ser eleito como Líder em caso de votação, não participando do Quórum.
@@ -46,7 +47,7 @@ Fonte:[https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overvi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTg2MzIzMSwtNzc0MzkwMTk0LC0xMT
+eyJoaXN0b3J5IjpbLTk3MDA3MDk0MSwtNzc0MzkwMTk0LC0xMT
 Q4MzUxMjI5LDEzODc3NzMzNDksMjE3MDY0Njc1LC0xNzQyNzIz
 NDI3XX0=
 -->
