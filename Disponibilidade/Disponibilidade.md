@@ -15,11 +15,11 @@ Para exemplificar iremos criar uma topologia de 3 nós sendo o nó **A** definid
 	> $ sudo docker run --name <nome_do_nó> -d -p 8080:8081 -p 38888:38888 ravendb/ravendb
 	- Onde o primeiro parâmetro de porta (8080) refere-se a porta da máquina física e o segundo (8081) à porta do serviço _Docker_. Para criarmos várias máquinas basta variar o seu nome e porta de serviço.
 	
-![enter image description here](https://github.com/AndersonGarrote/PMD/blob/master/Disponibilidade/all.png)
+![Todos os nós ativos](https://github.com/AndersonGarrote/PMD/blob/master/Disponibilidade/all.png?raw=true)
 
 Existem quatro tipos de nó:
 
- ![Tipos de nó](https://github.com/AndersonGarrote/PMD/blob/master/Disponibilidade/Tipos.png)
+ ![Tipos de nó](https://github.com/AndersonGarrote/PMD/blob/master/Disponibilidade/Tipos.png?raw=true)
 
 - *Leader*: Nó líder do *Group Database*, é responsável por manter a saúde do _cluster_ e assegurar a consistência das decisões.
 - *Member*: Nó membro do *Group Database*, pode se tornar um Líder em caso de eleição.
@@ -33,11 +33,11 @@ Ao derrubarmos o nó **A** teremos uma nova eleição que será realizada pelo q
 - Para derrubarmos um nó, removendo a máquina:
 	>  $ sudo docker stop <nome_do_nó>
 
-![enter image description here](https://github.com/AndersonGarrote/PMD/blob/master/Disponibilidade/A_down.png)
+![Nó A inoperante](https://github.com/AndersonGarrote/PMD/blob/master/Disponibilidade/A_down.png?raw=true)
 
 Em um outro cenário onde **C** foi rebaixado, ficando como um _Watcher_. Ao derrubarmos o atual _Leader_ **B** o quórum de _Members_ não é suficiente para eleger outro nó, desta forma a eleição fica esperando um quórum suficiente (N/2 + 1):
 
-![enter image description here](https://github.com/AndersonGarrote/PMD/blob/master/Disponibilidade/Voting.png)
+![Votação](https://github.com/AndersonGarrote/PMD/blob/master/Disponibilidade/Voting.png?raw=true)
 
 - Para voltarmos um nó ao funcionamento podemos excluir o nó que foi parado:
 	> $ sudo docker rm <nome_do_nó>
