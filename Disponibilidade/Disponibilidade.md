@@ -14,7 +14,7 @@ Para exemplificar iremos criar uma topologia de 3 nós sendo o nó **A** definid
 - Para subirmos as máquinas:
 	> $ sudo docker run --name <nome_do_nó> -d -p 8080:8081 -p 38888:38888 ravendb/ravendb
 	- Onde o primeiro parâmetro de porta (8080) refere-se a porta da máquina física e o segundo (8081) à porta do serviço _Docker_. Para criarmos várias máquinas basta variar o seu nome e porta de serviço.
-	- 
+	
 ![enter image description here](https://github.com/AndersonGarrote/PMD/blob/master/Disponibilidade/all.png)
 
 Existem quatro tipos de nó:
@@ -46,7 +46,7 @@ Fonte:[https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overvi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDcyMTExMjIsLTc3NDM5MDE5NCwtMT
-E0ODM1MTIyOSwxMzg3NzczMzQ5LDIxNzA2NDY3NSwtMTc0Mjcy
-MzQyN119
+eyJoaXN0b3J5IjpbLTgwOTg2MzIzMSwtNzc0MzkwMTk0LC0xMT
+Q4MzUxMjI5LDEzODc3NzMzNDksMjE3MDY0Njc1LC0xNzQyNzIz
+NDI3XX0=
 -->
