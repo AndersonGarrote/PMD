@@ -567,7 +567,7 @@ Para exemplificar iremos criar uma topologia de 3 nós sendo o nó **A** definid
 
 Existem quatro tipos de nó:
 
- ![Tipos de nó](https://github.com/AndersonGarrote/PMD/blob/master/Disponibilidade/Tipos.png?raw=true)
+ ![Tipos de nó](https://github.com/AndersonGarrote/PMD/blob/master/Disponibilidade/Tipos.png?raw=truelh3.googleusercontent.com/uRTulWUIS99gzAZh4LWxYenhbIln2SIYEmf3LzglHeBlPU_Ab_MTfRAIN-AR5fJrjp2OjfBE5jQ)
 - *Leader*: Nó líder do *Group Database*, é responsável por manter a saúde do _cluster_ e assegurar a consistência das decisões.
 - *Member*: Nó membro do *Group Database*, pode se tornar um Líder em caso de eleição.
 - *Watcher*: Nó membro com menos privilégios; não pode ser eleito como Líder em caso de votação, não participando do Quórum.
@@ -705,5 +705,6 @@ group by Supplier
 where count() >= 3
 select Supplier, count()`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NjYzNDk3MCwtMjA0NzA5MzQwOV19
+eyJoaXN0b3J5IjpbLTE0MjQ5MTIyMzcsMTA5NjYzNDk3MCwtMj
+A0NzA5MzQwOV19
 -->
