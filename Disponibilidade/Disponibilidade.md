@@ -33,11 +33,11 @@ Ao derrubarmos o nó **A** teremos uma nova eleição que será realizada pelo q
 - Para derrubarmos um nó, removendo a máquina:
 	>  $ sudo docker stop <nome_do_nó>
 
-![enter image description here](https://lh3.googleusercontent.com/_Y01ZYw1RYHJqHdWXL8QSF6RBqicHRjaEIVhwjMkcWDwM-03O3RZouAY0HJ2PQy69bfoSLcBtZU)
+![enter image description here](https://github.com/AndersonGarrote/PMD/blob/master/Disponibilidade/A_down.png)
 
 Em um outro cenário onde **C** foi rebaixado, ficando como um _Watcher_. Ao derrubarmos o atual _Leader_ **B** o quórum de _Members_ não é suficiente para eleger outro nó, desta forma a eleição fica esperando um quórum suficiente (N/2 + 1):
 
-![enter image description here](https://lh3.googleusercontent.com/3nzanwWTxJskAwdI-GX9YnNXpGNwEmVgcajBcyU7a8xvMuFGtQf9vlCl3ioocI9tFTKkhVjdaN4)
+![enter image description here](https://github.com/AndersonGarrote/PMD/blob/master/Disponibilidade/Voting.png)
 
 - Para voltarmos um nó ao funcionamento podemos excluir o nó que foi parado:
 	> $ sudo docker rm <nome_do_nó>
@@ -47,7 +47,7 @@ Fonte:[https://ravendb.net/docs/article-page/4.2/csharp/server/clustering/overvi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDA3MDk0MSwtNzc0MzkwMTk0LC0xMT
-Q4MzUxMjI5LDEzODc3NzMzNDksMjE3MDY0Njc1LC0xNzQyNzIz
-NDI3XX0=
+eyJoaXN0b3J5IjpbLTE2NDcxNTYzNCwtOTcwMDcwOTQxLC03Nz
+QzOTAxOTQsLTExNDgzNTEyMjksMTM4Nzc3MzM0OSwyMTcwNjQ2
+NzUsLTE3NDI3MjM0MjddfQ==
 -->
